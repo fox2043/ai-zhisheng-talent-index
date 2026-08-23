@@ -63,6 +63,7 @@
 .scenario-card>footer small{font-size:9px;color:var(--muted);font-weight:800}
 .scenario-tags{display:flex;flex-wrap:wrap;gap:5px;margin-top:6px}
 .scenario-tags span{font-size:9px;border:1px solid var(--line);padding:3px 5px}
+.scenario-empty{display:inline-flex;align-items:center;min-height:38px;padding:0 12px;border:1px dashed rgba(17,17,17,.32);color:#666;background:rgba(255,255,255,.38);font-size:12px;white-space:nowrap}
 .scenario-card>footer button{border:0;border-left:1px solid var(--ink);background:var(--acid);padding:13px 16px;font-size:11px;font-weight:900;cursor:pointer;max-width:170px;text-align:left}
 .scenario-card>footer button:hover{background:var(--red);color:#fff}
 .scenario-card>footer button b{font-size:18px;margin-left:5px}

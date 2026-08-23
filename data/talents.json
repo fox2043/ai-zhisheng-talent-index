@@ -122,6 +122,671 @@
     }
   },
   {
+    "id": "verified-award-36558fcbae23",
+    "name": "丁文超",
+    "initial": "丁",
+    "title": "AI项目负责人 · 政府公开信息",
+    "city": "上海",
+    "verified": false,
+    "tags": [
+      "AI产品",
+      "AIGC创作"
+    ],
+    "summary": "上海市人民政府 / 解放日报公开信息中明确列示的AI领域从业者或项目负责人。",
+    "cases": 1,
+    "awards": 0,
+    "media": 1,
+    "evidence": 1,
+    "score": 81,
+    "sources": [
+      "上海市人民政府 / 解放日报",
+      "上海青年AI科学家与创业者报道"
+    ],
+    "reason": "政府官网原始页面明确列示姓名、身份或AI项目，可点击回到原文复核。",
+    "works": [
+      [
+        "具身智能世界模型与数据驱动决策",
+        "上海青年AI科学家与创业者报道 · 政府公开信息",
+        "2026-07-26",
+        "https://www.shanghai.gov.cn/nw4411/20260726/746263dcc10847d0872f89a69997b811.html"
+      ]
+    ],
+    "achievements": [],
+    "mentions": [
+      [
+        "上海市人民政府 / 解放日报 · 上海青年AI科学家与创业者报道",
+        "具身智能世界模型与数据驱动决策",
+        "2026-07-26",
+        "https://www.shanghai.gov.cn/nw4411/20260726/746263dcc10847d0872f89a69997b811.html"
+      ]
+    ],
+    "income": [],
+    "real": true,
+    "officialEvidence": true,
+    "sourceUrl": "https://www.shanghai.gov.cn/nw4411/20260726/746263dcc10847d0872f89a69997b811.html",
+    "cityEvidence": {
+      "reason": "依据参赛院校或赛事官方发布单位归属上海",
+      "url": "https://www.shanghai.gov.cn/nw4411/20260726/746263dcc10847d0872f89a69997b811.html",
+      "confidence": "高"
+    },
+    "sourceAudit": {
+      "status": "verified",
+      "checkedAt": "2026-08-23",
+      "httpStatus": 200
+    }
+  },
+  {
+    "id": "verified-award-482e7e83d5b9",
+    "name": "三秦",
+    "initial": "三",
+    "title": "智能体开发者 · OPC创业者",
+    "city": "上海",
+    "verified": false,
+    "tags": [
+      "Agent",
+      "AI产品",
+      "OPC",
+      "AI应用"
+    ],
+    "summary": "上海复兴岛OPC社区报道中的智能体开发者，独立开发面向聚餐礼仪与场景问答的“饭局局中局”小程序。",
+    "cases": 1,
+    "awards": 0,
+    "media": 1,
+    "evidence": 1,
+    "score": 81,
+    "sources": [
+      "央广网",
+      "上海复兴岛OPC超级个体社区报道"
+    ],
+    "reason": "央广网报道明确其智能体开发方向、公开产品与两天独立开发经历，可作为企业评估轻量化智能体原型和OPC协作能力的初步依据。",
+    "works": [
+      [
+        "两天独立开发“饭局局中局”智能体小程序",
+        "上海复兴岛OPC超级个体社区报道 · 政府公开信息",
+        "2026-03-05",
+        "https://www.cnr.cn/shanghai/gstjshanghai/20260305/t20260305_527543665.shtml"
+      ]
+    ],
+    "achievements": [],
+    "mentions": [
+      [
+        "央广网 · 上海复兴岛OPC超级个体社区报道",
+        "两天独立开发“饭局局中局”智能体小程序",
+        "2026-03-05",
+        "https://www.cnr.cn/shanghai/gstjshanghai/20260305/t20260305_527543665.shtml"
+      ]
+    ],
+    "income": [],
+    "real": true,
+    "officialEvidence": true,
+    "sourceUrl": "https://www.cnr.cn/shanghai/gstjshanghai/20260305/t20260305_527543665.shtml",
+    "cityEvidence": {
+      "reason": "依据参赛院校或赛事官方发布单位归属上海",
+      "url": "https://www.cnr.cn/shanghai/gstjshanghai/20260305/t20260305_527543665.shtml",
+      "confidence": "高"
+    },
+    "sourceAudit": {
+      "status": "verified",
+      "checkedAt": "2026-08-23",
+      "httpStatus": 200
+    }
+  },
+  {
+    "id": "verified-award-cad98dcb88bc",
+    "name": "五津",
+    "initial": "五",
+    "title": "AI科技内容创作者 · 智能体讲师",
+    "city": "上海",
+    "verified": false,
+    "tags": [
+      "Agent",
+      "AI产品",
+      "AIGC创作",
+      "创作培训",
+      "OPC"
+    ],
+    "summary": "AI科技内容创作者、“五津的宝藏AI”主理人，以智能体实战、AI工具应用和产业内容传播为主要方向，入驻上海杨浦V聚场。",
+    "cases": 1,
+    "awards": 0,
+    "media": 1,
+    "evidence": 2,
+    "score": 81,
+    "sources": [
+      "澎湃新闻 / 杨浦V聚场",
+      "杨浦AI内容创作者与OPC生态报道",
+      "央视网"
+    ],
+    "reason": "澎湃新闻可追溯其上海杨浦创作团队与AI科技内容方向，央视网AI艺术节页面另有作品署名，适合企业进一步了解AI工具培训、智能体应用与科技内容传播合作。",
+    "works": [
+      [
+        "AI科技内容创作、智能体应用分享与轻量化内容团队实践",
+        "杨浦AI内容创作者与OPC生态报道 · 政府公开信息",
+        "2026",
+        "https://m.thepaper.cn/newsDetail_forward_33452015"
+      ]
+    ],
+    "achievements": [],
+    "mentions": [
+      [
+        "澎湃新闻 / 杨浦V聚场 · 杨浦AI内容创作者与OPC生态报道",
+        "AI科技内容创作、智能体应用分享与轻量化内容团队实践",
+        "2026",
+        "https://m.thepaper.cn/newsDetail_forward_33452015"
+      ],
+      [
+        "央视网 · 共尔AI艺术节《行止行》",
+        "作品创作者名单明确列示五津",
+        "2025-03-26",
+        "https://5gai.cctv.com/2025/03/26/VIDEwfTxHzZG2a37RBfLZlWD250326.shtml"
+      ]
+    ],
+    "income": [],
+    "real": true,
+    "officialEvidence": true,
+    "sourceUrl": "https://m.thepaper.cn/newsDetail_forward_33452015",
+    "cityEvidence": {
+      "reason": "依据参赛院校或赛事官方发布单位归属上海",
+      "url": "https://m.thepaper.cn/newsDetail_forward_33452015",
+      "confidence": "高"
+    },
+    "sourceAudit": {
+      "status": "verified",
+      "checkedAt": "2026-08-23",
+      "httpStatus": 200
+    }
+  },
+  {
+    "id": "verified-award-74034e268de0",
+    "name": "刘猛军",
+    "initial": "刘",
+    "title": "AI项目负责人 · 政府公开信息",
+    "city": "上海",
+    "verified": false,
+    "tags": [
+      "AI产品",
+      "AIGC创作"
+    ],
+    "summary": "上海市人民政府 / 解放日报公开信息中明确列示的AI领域从业者或项目负责人。",
+    "cases": 1,
+    "awards": 0,
+    "media": 1,
+    "evidence": 1,
+    "score": 81,
+    "sources": [
+      "上海市人民政府 / 解放日报",
+      "上海青年创新创业者报道"
+    ],
+    "reason": "政府官网原始页面明确列示姓名、身份或AI项目，可点击回到原文复核。",
+    "works": [
+      [
+        "AI多功能激光机器人",
+        "上海青年创新创业者报道 · 政府公开信息",
+        "2025-05-03",
+        "https://www.shanghai.gov.cn/nw4411/20250503/24b4a75bc9774c2698fd0c8358c4feb0.html"
+      ]
+    ],
+    "achievements": [],
+    "mentions": [
+      [
+        "上海市人民政府 / 解放日报 · 上海青年创新创业者报道",
+        "AI多功能激光机器人",
+        "2025-05-03",
+        "https://www.shanghai.gov.cn/nw4411/20250503/24b4a75bc9774c2698fd0c8358c4feb0.html"
+      ]
+    ],
+    "income": [],
+    "real": true,
+    "officialEvidence": true,
+    "sourceUrl": "https://www.shanghai.gov.cn/nw4411/20250503/24b4a75bc9774c2698fd0c8358c4feb0.html",
+    "cityEvidence": {
+      "reason": "依据参赛院校或赛事官方发布单位归属上海",
+      "url": "https://www.shanghai.gov.cn/nw4411/20250503/24b4a75bc9774c2698fd0c8358c4feb0.html",
+      "confidence": "高"
+    },
+    "sourceAudit": {
+      "status": "verified",
+      "checkedAt": "2026-08-23",
+      "httpStatus": 200
+    }
+  },
+  {
+    "id": "verified-award-8d71803af014",
+    "name": "周文怡",
+    "initial": "周",
+    "title": "AI项目负责人 · 政府公开信息",
+    "city": "上海",
+    "verified": false,
+    "tags": [
+      "AI产品",
+      "AIGC创作",
+      "Agent"
+    ],
+    "summary": "上海市人民政府 / 解放日报公开信息中明确列示的AI领域从业者或项目负责人。",
+    "cases": 1,
+    "awards": 0,
+    "media": 1,
+    "evidence": 1,
+    "score": 81,
+    "sources": [
+      "上海市人民政府 / 解放日报",
+      "上海复兴岛OPC创业者报道"
+    ],
+    "reason": "政府官网原始页面明确列示姓名、身份或AI项目，可点击回到原文复核。",
+    "works": [
+      [
+        "AI短剧与漫剧创作智能体",
+        "上海复兴岛OPC创业者报道 · 政府公开信息",
+        "2026-03-03",
+        "https://www.shanghai.gov.cn/nw4411/20260303/156281e0fbaf4c93afe71db636f08334.html"
+      ]
+    ],
+    "achievements": [],
+    "mentions": [
+      [
+        "上海市人民政府 / 解放日报 · 上海复兴岛OPC创业者报道",
+        "AI短剧与漫剧创作智能体",
+        "2026-03-03",
+        "https://www.shanghai.gov.cn/nw4411/20260303/156281e0fbaf4c93afe71db636f08334.html"
+      ]
+    ],
+    "income": [],
+    "real": true,
+    "officialEvidence": true,
+    "sourceUrl": "https://www.shanghai.gov.cn/nw4411/20260303/156281e0fbaf4c93afe71db636f08334.html",
+    "cityEvidence": {
+      "reason": "依据参赛院校或赛事官方发布单位归属上海",
+      "url": "https://www.shanghai.gov.cn/nw4411/20260303/156281e0fbaf4c93afe71db636f08334.html",
+      "confidence": "高"
+    },
+    "sourceAudit": {
+      "status": "verified",
+      "checkedAt": "2026-08-23",
+      "httpStatus": 200
+    }
+  },
+  {
+    "id": "verified-award-39fe423f5c2c",
+    "name": "张建政",
+    "initial": "张",
+    "title": "AI项目负责人 · 政府公开信息",
+    "city": "上海",
+    "verified": false,
+    "tags": [
+      "AI产品",
+      "AIGC创作"
+    ],
+    "summary": "上海市人民政府 / 解放日报公开信息中明确列示的AI领域从业者或项目负责人。",
+    "cases": 1,
+    "awards": 0,
+    "media": 1,
+    "evidence": 1,
+    "score": 81,
+    "sources": [
+      "上海市人民政府 / 解放日报",
+      "上海青年创新创业者报道"
+    ],
+    "reason": "政府官网原始页面明确列示姓名、身份或AI项目，可点击回到原文复核。",
+    "works": [
+      [
+        "手眼脚脑一体化智能机器人",
+        "上海青年创新创业者报道 · 政府公开信息",
+        "2025-05-03",
+        "https://www.shanghai.gov.cn/nw4411/20250503/24b4a75bc9774c2698fd0c8358c4feb0.html"
+      ]
+    ],
+    "achievements": [],
+    "mentions": [
+      [
+        "上海市人民政府 / 解放日报 · 上海青年创新创业者报道",
+        "手眼脚脑一体化智能机器人",
+        "2025-05-03",
+        "https://www.shanghai.gov.cn/nw4411/20250503/24b4a75bc9774c2698fd0c8358c4feb0.html"
+      ]
+    ],
+    "income": [],
+    "real": true,
+    "officialEvidence": true,
+    "sourceUrl": "https://www.shanghai.gov.cn/nw4411/20250503/24b4a75bc9774c2698fd0c8358c4feb0.html",
+    "cityEvidence": {
+      "reason": "依据参赛院校或赛事官方发布单位归属上海",
+      "url": "https://www.shanghai.gov.cn/nw4411/20250503/24b4a75bc9774c2698fd0c8358c4feb0.html",
+      "confidence": "高"
+    },
+    "sourceAudit": {
+      "status": "verified",
+      "checkedAt": "2026-08-23",
+      "httpStatus": 200
+    }
+  },
+  {
+    "id": "verified-award-c4fa0c6d1d8d",
+    "name": "田舒赟",
+    "initial": "田",
+    "title": "AI项目负责人 · 政府公开信息",
+    "city": "上海",
+    "verified": false,
+    "tags": [
+      "AI视频",
+      "AIGC创作"
+    ],
+    "summary": "上海市人民政府 / 解放日报公开信息中明确列示的AI领域从业者或项目负责人。",
+    "cases": 1,
+    "awards": 0,
+    "media": 1,
+    "evidence": 1,
+    "score": 81,
+    "sources": [
+      "上海市人民政府 / 解放日报",
+      "上海复兴岛OPC创业者报道"
+    ],
+    "reason": "政府官网原始页面明确列示姓名、身份或AI项目，可点击回到原文复核。",
+    "works": [
+      [
+        "AI图像和视频生成工具",
+        "上海复兴岛OPC创业者报道 · 政府公开信息",
+        "2026-03-03",
+        "https://www.shanghai.gov.cn/nw4411/20260303/156281e0fbaf4c93afe71db636f08334.html"
+      ]
+    ],
+    "achievements": [],
+    "mentions": [
+      [
+        "上海市人民政府 / 解放日报 · 上海复兴岛OPC创业者报道",
+        "AI图像和视频生成工具",
+        "2026-03-03",
+        "https://www.shanghai.gov.cn/nw4411/20260303/156281e0fbaf4c93afe71db636f08334.html"
+      ]
+    ],
+    "income": [],
+    "real": true,
+    "officialEvidence": true,
+    "sourceUrl": "https://www.shanghai.gov.cn/nw4411/20260303/156281e0fbaf4c93afe71db636f08334.html",
+    "cityEvidence": {
+      "reason": "依据参赛院校或赛事官方发布单位归属上海",
+      "url": "https://www.shanghai.gov.cn/nw4411/20260303/156281e0fbaf4c93afe71db636f08334.html",
+      "confidence": "高"
+    },
+    "sourceAudit": {
+      "status": "verified",
+      "checkedAt": "2026-08-23",
+      "httpStatus": 200
+    }
+  },
+  {
+    "id": "verified-award-49f76e42d5e3",
+    "name": "胡宇航",
+    "initial": "胡",
+    "title": "AI项目负责人 · 政府公开信息",
+    "city": "上海",
+    "verified": false,
+    "tags": [
+      "AI产品",
+      "AIGC创作"
+    ],
+    "summary": "上海市人民政府 / 解放日报公开信息中明确列示的AI领域从业者或项目负责人。",
+    "cases": 1,
+    "awards": 0,
+    "media": 1,
+    "evidence": 1,
+    "score": 81,
+    "sources": [
+      "上海市人民政府 / 解放日报",
+      "上海青年AI科学家与创业者报道"
+    ],
+    "reason": "政府官网原始页面明确列示姓名、身份或AI项目，可点击回到原文复核。",
+    "works": [
+      [
+        "高仿真情感交互机器人",
+        "上海青年AI科学家与创业者报道 · 政府公开信息",
+        "2026-07-26",
+        "https://www.shanghai.gov.cn/nw4411/20260726/746263dcc10847d0872f89a69997b811.html"
+      ]
+    ],
+    "achievements": [],
+    "mentions": [
+      [
+        "上海市人民政府 / 解放日报 · 上海青年AI科学家与创业者报道",
+        "高仿真情感交互机器人",
+        "2026-07-26",
+        "https://www.shanghai.gov.cn/nw4411/20260726/746263dcc10847d0872f89a69997b811.html"
+      ]
+    ],
+    "income": [],
+    "real": true,
+    "officialEvidence": true,
+    "sourceUrl": "https://www.shanghai.gov.cn/nw4411/20260726/746263dcc10847d0872f89a69997b811.html",
+    "cityEvidence": {
+      "reason": "依据参赛院校或赛事官方发布单位归属上海",
+      "url": "https://www.shanghai.gov.cn/nw4411/20260726/746263dcc10847d0872f89a69997b811.html",
+      "confidence": "高"
+    },
+    "sourceAudit": {
+      "status": "verified",
+      "checkedAt": "2026-08-23",
+      "httpStatus": 200
+    }
+  },
+  {
+    "id": "verified-award-e392a04d1e00",
+    "name": "薄智元",
+    "initial": "薄",
+    "title": "AI项目负责人 · 政府公开信息",
+    "city": "上海",
+    "verified": false,
+    "tags": [
+      "AI产品",
+      "AIGC创作",
+      "Agent"
+    ],
+    "summary": "上海市人民政府 / 解放日报公开信息中明确列示的AI领域从业者或项目负责人。",
+    "cases": 1,
+    "awards": 0,
+    "media": 1,
+    "evidence": 1,
+    "score": 81,
+    "sources": [
+      "上海市人民政府 / 解放日报",
+      "上海青年创新创业者报道"
+    ],
+    "reason": "政府官网原始页面明确列示姓名、身份或AI项目，可点击回到原文复核。",
+    "works": [
+      [
+        "服务企业的无代码数字化平台",
+        "上海青年创新创业者报道 · 政府公开信息",
+        "2025-05-03",
+        "https://www.shanghai.gov.cn/nw4411/20250503/24b4a75bc9774c2698fd0c8358c4feb0.html"
+      ]
+    ],
+    "achievements": [],
+    "mentions": [
+      [
+        "上海市人民政府 / 解放日报 · 上海青年创新创业者报道",
+        "服务企业的无代码数字化平台",
+        "2025-05-03",
+        "https://www.shanghai.gov.cn/nw4411/20250503/24b4a75bc9774c2698fd0c8358c4feb0.html"
+      ]
+    ],
+    "income": [],
+    "real": true,
+    "officialEvidence": true,
+    "sourceUrl": "https://www.shanghai.gov.cn/nw4411/20250503/24b4a75bc9774c2698fd0c8358c4feb0.html",
+    "cityEvidence": {
+      "reason": "依据参赛院校或赛事官方发布单位归属上海",
+      "url": "https://www.shanghai.gov.cn/nw4411/20250503/24b4a75bc9774c2698fd0c8358c4feb0.html",
+      "confidence": "高"
+    },
+    "sourceAudit": {
+      "status": "verified",
+      "checkedAt": "2026-08-23",
+      "httpStatus": 200
+    }
+  },
+  {
+    "id": "verified-award-837e5e923f82",
+    "name": "袁源",
+    "initial": "袁",
+    "title": "AI项目负责人 · 政府公开信息",
+    "city": "上海",
+    "verified": false,
+    "tags": [
+      "AI产品",
+      "AIGC创作",
+      "Agent"
+    ],
+    "summary": "上海市人民政府 / 浦东新区人民政府公开信息中明确列示的AI领域从业者或项目负责人。",
+    "cases": 1,
+    "awards": 0,
+    "media": 1,
+    "evidence": 1,
+    "score": 81,
+    "sources": [
+      "上海市人民政府 / 浦东新区人民政府",
+      "浦东AI青春力量报道"
+    ],
+    "reason": "政府官网原始页面明确列示姓名、身份或AI项目，可点击回到原文复核。",
+    "works": [
+      [
+        "AI科创资源智能匹配平台",
+        "浦东AI青春力量报道 · 政府公开信息",
+        "2026-07-22",
+        "https://www.shanghai.gov.cn/nw15343/20260722/17b496d36ed2441597d5c51cfeb61172.html"
+      ]
+    ],
+    "achievements": [],
+    "mentions": [
+      [
+        "上海市人民政府 / 浦东新区人民政府 · 浦东AI青春力量报道",
+        "AI科创资源智能匹配平台",
+        "2026-07-22",
+        "https://www.shanghai.gov.cn/nw15343/20260722/17b496d36ed2441597d5c51cfeb61172.html"
+      ]
+    ],
+    "income": [],
+    "real": true,
+    "officialEvidence": true,
+    "sourceUrl": "https://www.shanghai.gov.cn/nw15343/20260722/17b496d36ed2441597d5c51cfeb61172.html",
+    "cityEvidence": {
+      "reason": "依据参赛院校或赛事官方发布单位归属上海",
+      "url": "https://www.shanghai.gov.cn/nw15343/20260722/17b496d36ed2441597d5c51cfeb61172.html",
+      "confidence": "高"
+    },
+    "sourceAudit": {
+      "status": "verified",
+      "checkedAt": "2026-08-23",
+      "httpStatus": 200
+    }
+  },
+  {
+    "id": "verified-award-3ed18aafc248",
+    "name": "许磊",
+    "initial": "许",
+    "title": "AI项目负责人 · 政府公开信息",
+    "city": "上海",
+    "verified": false,
+    "tags": [
+      "AI产品",
+      "AIGC创作"
+    ],
+    "summary": "上海市人民政府 / 解放日报公开信息中明确列示的AI领域从业者或项目负责人。",
+    "cases": 1,
+    "awards": 0,
+    "media": 1,
+    "evidence": 1,
+    "score": 81,
+    "sources": [
+      "上海市人民政府 / 解放日报",
+      "上海青年创新创业者报道"
+    ],
+    "reason": "政府官网原始页面明确列示姓名、身份或AI项目，可点击回到原文复核。",
+    "works": [
+      [
+        "AI意图识别康复设备",
+        "上海青年创新创业者报道 · 政府公开信息",
+        "2025-05-03",
+        "https://www.shanghai.gov.cn/nw4411/20250503/24b4a75bc9774c2698fd0c8358c4feb0.html"
+      ]
+    ],
+    "achievements": [],
+    "mentions": [
+      [
+        "上海市人民政府 / 解放日报 · 上海青年创新创业者报道",
+        "AI意图识别康复设备",
+        "2025-05-03",
+        "https://www.shanghai.gov.cn/nw4411/20250503/24b4a75bc9774c2698fd0c8358c4feb0.html"
+      ]
+    ],
+    "income": [],
+    "real": true,
+    "officialEvidence": true,
+    "sourceUrl": "https://www.shanghai.gov.cn/nw4411/20250503/24b4a75bc9774c2698fd0c8358c4feb0.html",
+    "cityEvidence": {
+      "reason": "依据参赛院校或赛事官方发布单位归属上海",
+      "url": "https://www.shanghai.gov.cn/nw4411/20250503/24b4a75bc9774c2698fd0c8358c4feb0.html",
+      "confidence": "高"
+    },
+    "sourceAudit": {
+      "status": "verified",
+      "checkedAt": "2026-08-23",
+      "httpStatus": 200
+    }
+  },
+  {
+    "id": "verified-award-0061093dfb5e",
+    "name": "谭扬",
+    "initial": "谭",
+    "title": "AI项目负责人 · 政府公开信息",
+    "city": "上海",
+    "verified": false,
+    "tags": [
+      "AI绘画",
+      "AIGC创作",
+      "Agent",
+      "AI产品"
+    ],
+    "summary": "上海市人民政府 / 解放日报公开信息中明确列示的AI领域从业者或项目负责人。",
+    "cases": 1,
+    "awards": 0,
+    "media": 1,
+    "evidence": 1,
+    "score": 81,
+    "sources": [
+      "上海市人民政府 / 解放日报",
+      "上海青年AI人才与产业报道"
+    ],
+    "reason": "政府官网原始页面明确列示姓名、身份或AI项目，可点击回到原文复核。",
+    "works": [
+      [
+        "蛋白质设计智能体“晓鹜”",
+        "上海青年AI人才与产业报道 · 政府公开信息",
+        "2026-07-21",
+        "https://www.shanghai.gov.cn/nw4411/20260721/60c7900cfae74374862fc391d6a39fa5.html"
+      ]
+    ],
+    "achievements": [],
+    "mentions": [
+      [
+        "上海市人民政府 / 解放日报 · 上海青年AI人才与产业报道",
+        "蛋白质设计智能体“晓鹜”",
+        "2026-07-21",
+        "https://www.shanghai.gov.cn/nw4411/20260721/60c7900cfae74374862fc391d6a39fa5.html"
+      ]
+    ],
+    "income": [],
+    "real": true,
+    "officialEvidence": true,
+    "sourceUrl": "https://www.shanghai.gov.cn/nw4411/20260721/60c7900cfae74374862fc391d6a39fa5.html",
+    "cityEvidence": {
+      "reason": "依据参赛院校或赛事官方发布单位归属上海",
+      "url": "https://www.shanghai.gov.cn/nw4411/20260721/60c7900cfae74374862fc391d6a39fa5.html",
+      "confidence": "高"
+    },
+    "sourceAudit": {
+      "status": "verified",
+      "checkedAt": "2026-08-23",
+      "httpStatus": 200
+    }
+  },
+  {
     "id": "verified-award-0f1d5581a025",
     "name": "于治智",
     "initial": "于",
@@ -2562,1224 +3227,65 @@
     }
   },
   {
-    "id": "verified-award-2f45c714f443",
-    "name": "武智勇",
-    "initial": "武",
-    "title": "AI应用创新项目负责人 · 赛事获奖者",
-    "city": "北京",
+    "id": "verified-award-ad0e3c281765",
+    "name": "噼哩啪啦猴（噼里啪啦猴）",
+    "initial": "噼",
+    "title": "AI视频创作者 · OPC创业者",
+    "city": "厦门",
     "verified": false,
     "tags": [
-      "AI产品",
-      "AIGC创作"
+      "AI视频",
+      "AI短剧",
+      "AIGC创作",
+      "商业广告",
+      "OPC"
     ],
-    "summary": "北京市教育委员会公开公示的AI创作或应用赛事获奖者，参赛项目为智核突破挑战赛-智行向导 自主服务引航挑战 · 西格玛队。",
+    "summary": "从设计与内容运营转型为AIGC创作者，创办“纸猴子”并入驻福建省（厦门）人工智能产业孵化器，聚焦AI创意视频与AI短剧出海。",
     "cases": 1,
-    "awards": 1,
+    "awards": 0,
     "media": 1,
     "evidence": 1,
-    "score": 83,
+    "score": 81,
     "sources": [
-      "北京市教育委员会",
-      "首届北京市大学生“人工智能+”创新大赛"
+      "厦门网 / 福建日报",
+      "福建新兴产业与AI创业者报道"
     ],
-    "reason": "赛事主办或承办院校官网明确列示姓名、项目及奖项，可从原始公示追溯。",
+    "reason": "福建日报公开报道明确其厦门创业归属、AI视频业务方向及企业服务案例，适合企业进一步了解AI广告视频、短剧制作与轻量化内容团队合作。",
     "works": [
       [
-        "智核突破挑战赛-智行向导 自主服务引航挑战 · 西格玛队",
-        "首届北京市大学生“人工智能+”创新大赛 · 二等奖",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
+        "AI创意视频与AI短剧出海；公开报道列示其服务追觅科技、中国中车等企业",
+        "福建新兴产业与AI创业者报道 · 政府公开信息",
+        "2026-08-14",
+        "https://news.xmnn.cn/fjxw/202608/t20260814_445013.html"
       ]
     ],
-    "achievements": [
-      [
-        "首届北京市大学生“人工智能+”创新大赛 · 二等奖",
-        "获奖项目：智核突破挑战赛-智行向导 自主服务引航挑战 · 西格玛队",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
+    "achievements": [],
     "mentions": [
       [
-        "北京市教育委员会 · 获奖结果公示",
-        "首届北京市大学生“人工智能+”创新大赛",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
+        "厦门网 / 福建日报 · 福建新兴产业与AI创业者报道",
+        "AI创意视频与AI短剧出海；公开报道列示其服务追觅科技、中国中车等企业",
+        "2026-08-14",
+        "https://news.xmnn.cn/fjxw/202608/t20260814_445013.html"
       ]
     ],
     "income": [],
     "real": true,
     "officialEvidence": true,
-    "sourceUrl": "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html",
+    "sourceUrl": "https://news.xmnn.cn/fjxw/202608/t20260814_445013.html",
     "cityEvidence": {
-      "reason": "依据参赛院校或赛事官方发布单位归属北京",
-      "url": "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html",
+      "reason": "依据参赛院校或赛事官方发布单位归属厦门",
+      "url": "https://news.xmnn.cn/fjxw/202608/t20260814_445013.html",
       "confidence": "高"
     },
     "sourceAudit": {
       "status": "verified",
       "checkedAt": "2026-08-23",
       "httpStatus": 200
-    }
-  },
-  {
-    "id": "verified-award-fbc9e1b5150b",
-    "name": "王圣然",
-    "initial": "王",
-    "title": "AI应用创新项目负责人 · 赛事获奖者",
-    "city": "北京",
-    "verified": false,
-    "tags": [
-      "AI产品",
-      "AIGC创作"
-    ],
-    "summary": "北京市教育委员会公开公示的AI创作或应用赛事获奖者，参赛项目为智核突破挑战赛-智行向导 自主服务引航挑战 · 星智领航队。",
-    "cases": 1,
-    "awards": 1,
-    "media": 1,
-    "evidence": 1,
-    "score": 83,
-    "sources": [
-      "北京市教育委员会",
-      "首届北京市大学生“人工智能+”创新大赛"
-    ],
-    "reason": "赛事主办或承办院校官网明确列示姓名、项目及奖项，可从原始公示追溯。",
-    "works": [
-      [
-        "智核突破挑战赛-智行向导 自主服务引航挑战 · 星智领航队",
-        "首届北京市大学生“人工智能+”创新大赛 · 一等奖",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "achievements": [
-      [
-        "首届北京市大学生“人工智能+”创新大赛 · 一等奖",
-        "获奖项目：智核突破挑战赛-智行向导 自主服务引航挑战 · 星智领航队",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "mentions": [
-      [
-        "北京市教育委员会 · 获奖结果公示",
-        "首届北京市大学生“人工智能+”创新大赛",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "income": [],
-    "real": true,
-    "officialEvidence": true,
-    "sourceUrl": "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html",
-    "cityEvidence": {
-      "reason": "依据参赛院校或赛事官方发布单位归属北京",
-      "url": "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html",
-      "confidence": "高"
     },
-    "sourceAudit": {
-      "status": "verified",
-      "checkedAt": "2026-08-23",
-      "httpStatus": 200
-    }
-  },
-  {
-    "id": "verified-award-4c09f60a1344",
-    "name": "王巍然",
-    "initial": "王",
-    "title": "AI应用创新项目负责人 · 赛事获奖者",
-    "city": "北京",
-    "verified": false,
-    "tags": [
-      "AI产品",
-      "AIGC创作"
-    ],
-    "summary": "北京市教育委员会公开公示的AI创作或应用赛事获奖者，参赛项目为智核突破挑战赛-智行向导 自主服务引航挑战 · 情况就是这么一个情况队。",
-    "cases": 1,
-    "awards": 1,
-    "media": 1,
-    "evidence": 1,
-    "score": 83,
-    "sources": [
-      "北京市教育委员会",
-      "首届北京市大学生“人工智能+”创新大赛"
-    ],
-    "reason": "赛事主办或承办院校官网明确列示姓名、项目及奖项，可从原始公示追溯。",
-    "works": [
-      [
-        "智核突破挑战赛-智行向导 自主服务引航挑战 · 情况就是这么一个情况队",
-        "首届北京市大学生“人工智能+”创新大赛 · 二等奖",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "achievements": [
-      [
-        "首届北京市大学生“人工智能+”创新大赛 · 二等奖",
-        "获奖项目：智核突破挑战赛-智行向导 自主服务引航挑战 · 情况就是这么一个情况队",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "mentions": [
-      [
-        "北京市教育委员会 · 获奖结果公示",
-        "首届北京市大学生“人工智能+”创新大赛",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "income": [],
-    "real": true,
-    "officialEvidence": true,
-    "sourceUrl": "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html",
-    "cityEvidence": {
-      "reason": "依据参赛院校或赛事官方发布单位归属北京",
-      "url": "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html",
-      "confidence": "高"
-    },
-    "sourceAudit": {
-      "status": "verified",
-      "checkedAt": "2026-08-23",
-      "httpStatus": 200
-    }
-  },
-  {
-    "id": "verified-award-96721b766575",
-    "name": "王涵",
-    "initial": "王",
-    "title": "AI应用创新项目负责人 · 赛事获奖者",
-    "city": "北京",
-    "verified": false,
-    "tags": [
-      "AI产品",
-      "AIGC创作"
-    ],
-    "summary": "北京市教育委员会公开公示的AI创作或应用赛事获奖者，参赛项目为智核突破挑战赛-智行向导 自主服务引航挑战 · 顺风队。",
-    "cases": 1,
-    "awards": 1,
-    "media": 1,
-    "evidence": 1,
-    "score": 83,
-    "sources": [
-      "北京市教育委员会",
-      "首届北京市大学生“人工智能+”创新大赛"
-    ],
-    "reason": "赛事主办或承办院校官网明确列示姓名、项目及奖项，可从原始公示追溯。",
-    "works": [
-      [
-        "智核突破挑战赛-智行向导 自主服务引航挑战 · 顺风队",
-        "首届北京市大学生“人工智能+”创新大赛 · 一等奖",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "achievements": [
-      [
-        "首届北京市大学生“人工智能+”创新大赛 · 一等奖",
-        "获奖项目：智核突破挑战赛-智行向导 自主服务引航挑战 · 顺风队",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "mentions": [
-      [
-        "北京市教育委员会 · 获奖结果公示",
-        "首届北京市大学生“人工智能+”创新大赛",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "income": [],
-    "real": true,
-    "officialEvidence": true,
-    "sourceUrl": "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html",
-    "cityEvidence": {
-      "reason": "依据参赛院校或赛事官方发布单位归属北京",
-      "url": "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html",
-      "confidence": "高"
-    },
-    "sourceAudit": {
-      "status": "verified",
-      "checkedAt": "2026-08-23",
-      "httpStatus": 200
-    }
-  },
-  {
-    "id": "verified-award-992434e30c09",
-    "name": "王鸿图",
-    "initial": "王",
-    "title": "AI应用创新项目负责人 · 赛事获奖者",
-    "city": "北京",
-    "verified": false,
-    "tags": [
-      "AI产品",
-      "AIGC创作"
-    ],
-    "summary": "北京市教育委员会公开公示的AI创作或应用赛事获奖者，参赛项目为智核突破挑战赛-立体净界 立体空间清洁挑战 · 正无穷战队。",
-    "cases": 1,
-    "awards": 1,
-    "media": 1,
-    "evidence": 1,
-    "score": 83,
-    "sources": [
-      "北京市教育委员会",
-      "首届北京市大学生“人工智能+”创新大赛"
-    ],
-    "reason": "赛事主办或承办院校官网明确列示姓名、项目及奖项，可从原始公示追溯。",
-    "works": [
-      [
-        "智核突破挑战赛-立体净界 立体空间清洁挑战 · 正无穷战队",
-        "首届北京市大学生“人工智能+”创新大赛 · 一等奖",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "achievements": [
-      [
-        "首届北京市大学生“人工智能+”创新大赛 · 一等奖",
-        "获奖项目：智核突破挑战赛-立体净界 立体空间清洁挑战 · 正无穷战队",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "mentions": [
-      [
-        "北京市教育委员会 · 获奖结果公示",
-        "首届北京市大学生“人工智能+”创新大赛",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "income": [],
-    "real": true,
-    "officialEvidence": true,
-    "sourceUrl": "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html",
-    "cityEvidence": {
-      "reason": "依据参赛院校或赛事官方发布单位归属北京",
-      "url": "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html",
-      "confidence": "高"
-    },
-    "sourceAudit": {
-      "status": "verified",
-      "checkedAt": "2026-08-23",
-      "httpStatus": 200
-    }
-  },
-  {
-    "id": "verified-award-d2a7489d787f",
-    "name": "甄乐明",
-    "initial": "甄",
-    "title": "AI应用创新项目负责人 · 赛事获奖者",
-    "city": "北京",
-    "verified": false,
-    "tags": [
-      "AI产品",
-      "AIGC创作"
-    ],
-    "summary": "北京市教育委员会公开公示的AI创作或应用赛事获奖者，参赛项目为智核突破挑战赛-立体净界 立体空间清洁挑战 · 清智净远队。",
-    "cases": 1,
-    "awards": 1,
-    "media": 1,
-    "evidence": 1,
-    "score": 83,
-    "sources": [
-      "北京市教育委员会",
-      "首届北京市大学生“人工智能+”创新大赛"
-    ],
-    "reason": "赛事主办或承办院校官网明确列示姓名、项目及奖项，可从原始公示追溯。",
-    "works": [
-      [
-        "智核突破挑战赛-立体净界 立体空间清洁挑战 · 清智净远队",
-        "首届北京市大学生“人工智能+”创新大赛 · 三等奖",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "achievements": [
-      [
-        "首届北京市大学生“人工智能+”创新大赛 · 三等奖",
-        "获奖项目：智核突破挑战赛-立体净界 立体空间清洁挑战 · 清智净远队",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "mentions": [
-      [
-        "北京市教育委员会 · 获奖结果公示",
-        "首届北京市大学生“人工智能+”创新大赛",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "income": [],
-    "real": true,
-    "officialEvidence": true,
-    "sourceUrl": "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html",
-    "cityEvidence": {
-      "reason": "依据参赛院校或赛事官方发布单位归属北京",
-      "url": "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html",
-      "confidence": "高"
-    },
-    "sourceAudit": {
-      "status": "verified",
-      "checkedAt": "2026-08-23",
-      "httpStatus": 200
-    }
-  },
-  {
-    "id": "verified-award-dd785f83138c",
-    "name": "白嘎利",
-    "initial": "白",
-    "title": "AI应用创新项目负责人 · 赛事获奖者",
-    "city": "北京",
-    "verified": false,
-    "tags": [
-      "AI产品",
-      "AIGC创作"
-    ],
-    "summary": "北京市教育委员会公开公示的AI创作或应用赛事获奖者，参赛项目为智核突破挑战赛-智行向导 自主服务引航挑战 · Fang糖。",
-    "cases": 1,
-    "awards": 1,
-    "media": 1,
-    "evidence": 1,
-    "score": 83,
-    "sources": [
-      "北京市教育委员会",
-      "首届北京市大学生“人工智能+”创新大赛"
-    ],
-    "reason": "赛事主办或承办院校官网明确列示姓名、项目及奖项，可从原始公示追溯。",
-    "works": [
-      [
-        "智核突破挑战赛-智行向导 自主服务引航挑战 · Fang糖",
-        "首届北京市大学生“人工智能+”创新大赛 · 三等奖",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "achievements": [
-      [
-        "首届北京市大学生“人工智能+”创新大赛 · 三等奖",
-        "获奖项目：智核突破挑战赛-智行向导 自主服务引航挑战 · Fang糖",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "mentions": [
-      [
-        "北京市教育委员会 · 获奖结果公示",
-        "首届北京市大学生“人工智能+”创新大赛",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "income": [],
-    "real": true,
-    "officialEvidence": true,
-    "sourceUrl": "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html",
-    "cityEvidence": {
-      "reason": "依据参赛院校或赛事官方发布单位归属北京",
-      "url": "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html",
-      "confidence": "高"
-    },
-    "sourceAudit": {
-      "status": "verified",
-      "checkedAt": "2026-08-23",
-      "httpStatus": 200
-    }
-  },
-  {
-    "id": "verified-award-e64072b74fa8",
-    "name": "盛昱玮",
-    "initial": "盛",
-    "title": "AI应用创新项目负责人 · 赛事获奖者",
-    "city": "北京",
-    "verified": false,
-    "tags": [
-      "AI产品",
-      "AIGC创作"
-    ],
-    "summary": "北京市教育委员会公开公示的AI创作或应用赛事获奖者，参赛项目为智核突破挑战赛-智行向导 自主服务引航挑战 · 电智领航队。",
-    "cases": 1,
-    "awards": 1,
-    "media": 1,
-    "evidence": 1,
-    "score": 83,
-    "sources": [
-      "北京市教育委员会",
-      "首届北京市大学生“人工智能+”创新大赛"
-    ],
-    "reason": "赛事主办或承办院校官网明确列示姓名、项目及奖项，可从原始公示追溯。",
-    "works": [
-      [
-        "智核突破挑战赛-智行向导 自主服务引航挑战 · 电智领航队",
-        "首届北京市大学生“人工智能+”创新大赛 · 二等奖",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "achievements": [
-      [
-        "首届北京市大学生“人工智能+”创新大赛 · 二等奖",
-        "获奖项目：智核突破挑战赛-智行向导 自主服务引航挑战 · 电智领航队",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "mentions": [
-      [
-        "北京市教育委员会 · 获奖结果公示",
-        "首届北京市大学生“人工智能+”创新大赛",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "income": [],
-    "real": true,
-    "officialEvidence": true,
-    "sourceUrl": "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html",
-    "cityEvidence": {
-      "reason": "依据参赛院校或赛事官方发布单位归属北京",
-      "url": "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html",
-      "confidence": "高"
-    },
-    "sourceAudit": {
-      "status": "verified",
-      "checkedAt": "2026-08-23",
-      "httpStatus": 200
-    }
-  },
-  {
-    "id": "verified-award-fde91b0ecdc0",
-    "name": "相广滨",
-    "initial": "相",
-    "title": "AI应用创新项目负责人 · 赛事获奖者",
-    "city": "北京",
-    "verified": false,
-    "tags": [
-      "AI产品",
-      "AIGC创作"
-    ],
-    "summary": "北京市教育委员会公开公示的AI创作或应用赛事获奖者，参赛项目为智核突破挑战赛-智行向导 自主服务引航挑战 · 迅风智行。",
-    "cases": 1,
-    "awards": 1,
-    "media": 1,
-    "evidence": 1,
-    "score": 83,
-    "sources": [
-      "北京市教育委员会",
-      "首届北京市大学生“人工智能+”创新大赛"
-    ],
-    "reason": "赛事主办或承办院校官网明确列示姓名、项目及奖项，可从原始公示追溯。",
-    "works": [
-      [
-        "智核突破挑战赛-智行向导 自主服务引航挑战 · 迅风智行",
-        "首届北京市大学生“人工智能+”创新大赛 · 三等奖",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "achievements": [
-      [
-        "首届北京市大学生“人工智能+”创新大赛 · 三等奖",
-        "获奖项目：智核突破挑战赛-智行向导 自主服务引航挑战 · 迅风智行",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "mentions": [
-      [
-        "北京市教育委员会 · 获奖结果公示",
-        "首届北京市大学生“人工智能+”创新大赛",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "income": [],
-    "real": true,
-    "officialEvidence": true,
-    "sourceUrl": "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html",
-    "cityEvidence": {
-      "reason": "依据参赛院校或赛事官方发布单位归属北京",
-      "url": "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html",
-      "confidence": "高"
-    },
-    "sourceAudit": {
-      "status": "verified",
-      "checkedAt": "2026-08-23",
-      "httpStatus": 200
-    }
-  },
-  {
-    "id": "verified-award-803f33e8269e",
-    "name": "秦晓超",
-    "initial": "秦",
-    "title": "AI应用创新项目负责人 · 赛事获奖者",
-    "city": "北京",
-    "verified": false,
-    "tags": [
-      "AI产品",
-      "AIGC创作"
-    ],
-    "summary": "北京市教育委员会公开公示的AI创作或应用赛事获奖者，参赛项目为智核突破挑战赛-立体净界 立体空间清洁挑战 · 净到好处队。",
-    "cases": 1,
-    "awards": 1,
-    "media": 1,
-    "evidence": 1,
-    "score": 83,
-    "sources": [
-      "北京市教育委员会",
-      "首届北京市大学生“人工智能+”创新大赛"
-    ],
-    "reason": "赛事主办或承办院校官网明确列示姓名、项目及奖项，可从原始公示追溯。",
-    "works": [
-      [
-        "智核突破挑战赛-立体净界 立体空间清洁挑战 · 净到好处队",
-        "首届北京市大学生“人工智能+”创新大赛 · 二等奖",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "achievements": [
-      [
-        "首届北京市大学生“人工智能+”创新大赛 · 二等奖",
-        "获奖项目：智核突破挑战赛-立体净界 立体空间清洁挑战 · 净到好处队",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "mentions": [
-      [
-        "北京市教育委员会 · 获奖结果公示",
-        "首届北京市大学生“人工智能+”创新大赛",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "income": [],
-    "real": true,
-    "officialEvidence": true,
-    "sourceUrl": "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html",
-    "cityEvidence": {
-      "reason": "依据参赛院校或赛事官方发布单位归属北京",
-      "url": "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html",
-      "confidence": "高"
-    },
-    "sourceAudit": {
-      "status": "verified",
-      "checkedAt": "2026-08-23",
-      "httpStatus": 200
-    }
-  },
-  {
-    "id": "verified-award-f716a7ddd27e",
-    "name": "秦琪翔",
-    "initial": "秦",
-    "title": "AI应用创新项目负责人 · 赛事获奖者",
-    "city": "北京",
-    "verified": false,
-    "tags": [
-      "AI产品",
-      "AIGC创作"
-    ],
-    "summary": "北京市教育委员会公开公示的AI创作或应用赛事获奖者，参赛项目为智核突破挑战赛-立体净界 立体空间清洁挑战 · 捷风厅洁队。",
-    "cases": 1,
-    "awards": 1,
-    "media": 1,
-    "evidence": 1,
-    "score": 83,
-    "sources": [
-      "北京市教育委员会",
-      "首届北京市大学生“人工智能+”创新大赛"
-    ],
-    "reason": "赛事主办或承办院校官网明确列示姓名、项目及奖项，可从原始公示追溯。",
-    "works": [
-      [
-        "智核突破挑战赛-立体净界 立体空间清洁挑战 · 捷风厅洁队",
-        "首届北京市大学生“人工智能+”创新大赛 · 一等奖",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "achievements": [
-      [
-        "首届北京市大学生“人工智能+”创新大赛 · 一等奖",
-        "获奖项目：智核突破挑战赛-立体净界 立体空间清洁挑战 · 捷风厅洁队",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "mentions": [
-      [
-        "北京市教育委员会 · 获奖结果公示",
-        "首届北京市大学生“人工智能+”创新大赛",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "income": [],
-    "real": true,
-    "officialEvidence": true,
-    "sourceUrl": "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html",
-    "cityEvidence": {
-      "reason": "依据参赛院校或赛事官方发布单位归属北京",
-      "url": "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html",
-      "confidence": "高"
-    },
-    "sourceAudit": {
-      "status": "verified",
-      "checkedAt": "2026-08-23",
-      "httpStatus": 200
-    }
-  },
-  {
-    "id": "verified-award-d8c737b83de6",
-    "name": "耿惜凡",
-    "initial": "耿",
-    "title": "AI应用创新项目负责人 · 赛事获奖者",
-    "city": "北京",
-    "verified": false,
-    "tags": [
-      "AI产品",
-      "AIGC创作"
-    ],
-    "summary": "北京市教育委员会公开公示的AI创作或应用赛事获奖者，参赛项目为智核突破挑战赛-智行向导 自主服务引航挑战 · Fang糖。",
-    "cases": 1,
-    "awards": 1,
-    "media": 1,
-    "evidence": 1,
-    "score": 83,
-    "sources": [
-      "北京市教育委员会",
-      "首届北京市大学生“人工智能+”创新大赛"
-    ],
-    "reason": "赛事主办或承办院校官网明确列示姓名、项目及奖项，可从原始公示追溯。",
-    "works": [
-      [
-        "智核突破挑战赛-智行向导 自主服务引航挑战 · Fang糖",
-        "首届北京市大学生“人工智能+”创新大赛 · 三等奖",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "achievements": [
-      [
-        "首届北京市大学生“人工智能+”创新大赛 · 三等奖",
-        "获奖项目：智核突破挑战赛-智行向导 自主服务引航挑战 · Fang糖",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "mentions": [
-      [
-        "北京市教育委员会 · 获奖结果公示",
-        "首届北京市大学生“人工智能+”创新大赛",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "income": [],
-    "real": true,
-    "officialEvidence": true,
-    "sourceUrl": "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html",
-    "cityEvidence": {
-      "reason": "依据参赛院校或赛事官方发布单位归属北京",
-      "url": "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html",
-      "confidence": "高"
-    },
-    "sourceAudit": {
-      "status": "verified",
-      "checkedAt": "2026-08-23",
-      "httpStatus": 200
-    }
-  },
-  {
-    "id": "verified-award-ee65a825e241",
-    "name": "胡欣玗",
-    "initial": "胡",
-    "title": "AI应用创新项目负责人 · 赛事获奖者",
-    "city": "北京",
-    "verified": false,
-    "tags": [
-      "AI产品",
-      "AIGC创作"
-    ],
-    "summary": "北京市教育委员会公开公示的AI创作或应用赛事获奖者，参赛项目为智核突破挑战赛-立体净界 立体空间清洁挑战 · 清智净远队。",
-    "cases": 1,
-    "awards": 1,
-    "media": 1,
-    "evidence": 1,
-    "score": 83,
-    "sources": [
-      "北京市教育委员会",
-      "首届北京市大学生“人工智能+”创新大赛"
-    ],
-    "reason": "赛事主办或承办院校官网明确列示姓名、项目及奖项，可从原始公示追溯。",
-    "works": [
-      [
-        "智核突破挑战赛-立体净界 立体空间清洁挑战 · 清智净远队",
-        "首届北京市大学生“人工智能+”创新大赛 · 三等奖",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "achievements": [
-      [
-        "首届北京市大学生“人工智能+”创新大赛 · 三等奖",
-        "获奖项目：智核突破挑战赛-立体净界 立体空间清洁挑战 · 清智净远队",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "mentions": [
-      [
-        "北京市教育委员会 · 获奖结果公示",
-        "首届北京市大学生“人工智能+”创新大赛",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "income": [],
-    "real": true,
-    "officialEvidence": true,
-    "sourceUrl": "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html",
-    "cityEvidence": {
-      "reason": "依据参赛院校或赛事官方发布单位归属北京",
-      "url": "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html",
-      "confidence": "高"
-    },
-    "sourceAudit": {
-      "status": "verified",
-      "checkedAt": "2026-08-23",
-      "httpStatus": 200
-    }
-  },
-  {
-    "id": "verified-award-68f08964f44b",
-    "name": "赖思宇",
-    "initial": "赖",
-    "title": "AI应用创新项目负责人 · 赛事获奖者",
-    "city": "北京",
-    "verified": false,
-    "tags": [
-      "AI产品",
-      "AIGC创作"
-    ],
-    "summary": "北京市教育委员会公开公示的AI创作或应用赛事获奖者，参赛项目为智核突破挑战赛-立体净界 立体空间清洁挑战 · 清智净远队。",
-    "cases": 1,
-    "awards": 1,
-    "media": 1,
-    "evidence": 1,
-    "score": 83,
-    "sources": [
-      "北京市教育委员会",
-      "首届北京市大学生“人工智能+”创新大赛"
-    ],
-    "reason": "赛事主办或承办院校官网明确列示姓名、项目及奖项，可从原始公示追溯。",
-    "works": [
-      [
-        "智核突破挑战赛-立体净界 立体空间清洁挑战 · 清智净远队",
-        "首届北京市大学生“人工智能+”创新大赛 · 三等奖",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "achievements": [
-      [
-        "首届北京市大学生“人工智能+”创新大赛 · 三等奖",
-        "获奖项目：智核突破挑战赛-立体净界 立体空间清洁挑战 · 清智净远队",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "mentions": [
-      [
-        "北京市教育委员会 · 获奖结果公示",
-        "首届北京市大学生“人工智能+”创新大赛",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "income": [],
-    "real": true,
-    "officialEvidence": true,
-    "sourceUrl": "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html",
-    "cityEvidence": {
-      "reason": "依据参赛院校或赛事官方发布单位归属北京",
-      "url": "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html",
-      "confidence": "高"
-    },
-    "sourceAudit": {
-      "status": "verified",
-      "checkedAt": "2026-08-23",
-      "httpStatus": 200
-    }
-  },
-  {
-    "id": "verified-award-dcd40b26aeca",
-    "name": "郑轩昊",
-    "initial": "郑",
-    "title": "AI应用创新项目负责人 · 赛事获奖者",
-    "city": "北京",
-    "verified": false,
-    "tags": [
-      "AI产品",
-      "AIGC创作"
-    ],
-    "summary": "北京市教育委员会公开公示的AI创作或应用赛事获奖者，参赛项目为智核突破挑战赛-立体净界 立体空间清洁挑战 · 净到好处队。",
-    "cases": 1,
-    "awards": 1,
-    "media": 1,
-    "evidence": 1,
-    "score": 83,
-    "sources": [
-      "北京市教育委员会",
-      "首届北京市大学生“人工智能+”创新大赛"
-    ],
-    "reason": "赛事主办或承办院校官网明确列示姓名、项目及奖项，可从原始公示追溯。",
-    "works": [
-      [
-        "智核突破挑战赛-立体净界 立体空间清洁挑战 · 净到好处队",
-        "首届北京市大学生“人工智能+”创新大赛 · 二等奖",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "achievements": [
-      [
-        "首届北京市大学生“人工智能+”创新大赛 · 二等奖",
-        "获奖项目：智核突破挑战赛-立体净界 立体空间清洁挑战 · 净到好处队",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "mentions": [
-      [
-        "北京市教育委员会 · 获奖结果公示",
-        "首届北京市大学生“人工智能+”创新大赛",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "income": [],
-    "real": true,
-    "officialEvidence": true,
-    "sourceUrl": "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html",
-    "cityEvidence": {
-      "reason": "依据参赛院校或赛事官方发布单位归属北京",
-      "url": "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html",
-      "confidence": "高"
-    },
-    "sourceAudit": {
-      "status": "verified",
-      "checkedAt": "2026-08-23",
-      "httpStatus": 200
-    }
-  },
-  {
-    "id": "verified-award-07ad8f3a8056",
-    "name": "郭年圣",
-    "initial": "郭",
-    "title": "AI应用创新项目负责人 · 赛事获奖者",
-    "city": "北京",
-    "verified": false,
-    "tags": [
-      "AI产品",
-      "AIGC创作"
-    ],
-    "summary": "北京市教育委员会公开公示的AI创作或应用赛事获奖者，参赛项目为智核突破挑战赛-智行向导 自主服务引航挑战 · 西格玛队。",
-    "cases": 1,
-    "awards": 1,
-    "media": 1,
-    "evidence": 1,
-    "score": 83,
-    "sources": [
-      "北京市教育委员会",
-      "首届北京市大学生“人工智能+”创新大赛"
-    ],
-    "reason": "赛事主办或承办院校官网明确列示姓名、项目及奖项，可从原始公示追溯。",
-    "works": [
-      [
-        "智核突破挑战赛-智行向导 自主服务引航挑战 · 西格玛队",
-        "首届北京市大学生“人工智能+”创新大赛 · 二等奖",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "achievements": [
-      [
-        "首届北京市大学生“人工智能+”创新大赛 · 二等奖",
-        "获奖项目：智核突破挑战赛-智行向导 自主服务引航挑战 · 西格玛队",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "mentions": [
-      [
-        "北京市教育委员会 · 获奖结果公示",
-        "首届北京市大学生“人工智能+”创新大赛",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "income": [],
-    "real": true,
-    "officialEvidence": true,
-    "sourceUrl": "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html",
-    "cityEvidence": {
-      "reason": "依据参赛院校或赛事官方发布单位归属北京",
-      "url": "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html",
-      "confidence": "高"
-    },
-    "sourceAudit": {
-      "status": "verified",
-      "checkedAt": "2026-08-23",
-      "httpStatus": 200
-    }
-  },
-  {
-    "id": "verified-award-d925c8b5a088",
-    "name": "陆禹铖",
-    "initial": "陆",
-    "title": "AI应用创新项目负责人 · 赛事获奖者",
-    "city": "北京",
-    "verified": false,
-    "tags": [
-      "AI产品",
-      "AIGC创作"
-    ],
-    "summary": "北京市教育委员会公开公示的AI创作或应用赛事获奖者，参赛项目为智核突破挑战赛-立体净界 立体空间清洁挑战 · 清智净远队。",
-    "cases": 1,
-    "awards": 1,
-    "media": 1,
-    "evidence": 1,
-    "score": 83,
-    "sources": [
-      "北京市教育委员会",
-      "首届北京市大学生“人工智能+”创新大赛"
-    ],
-    "reason": "赛事主办或承办院校官网明确列示姓名、项目及奖项，可从原始公示追溯。",
-    "works": [
-      [
-        "智核突破挑战赛-立体净界 立体空间清洁挑战 · 清智净远队",
-        "首届北京市大学生“人工智能+”创新大赛 · 三等奖",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "achievements": [
-      [
-        "首届北京市大学生“人工智能+”创新大赛 · 三等奖",
-        "获奖项目：智核突破挑战赛-立体净界 立体空间清洁挑战 · 清智净远队",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "mentions": [
-      [
-        "北京市教育委员会 · 获奖结果公示",
-        "首届北京市大学生“人工智能+”创新大赛",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "income": [],
-    "real": true,
-    "officialEvidence": true,
-    "sourceUrl": "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html",
-    "cityEvidence": {
-      "reason": "依据参赛院校或赛事官方发布单位归属北京",
-      "url": "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html",
-      "confidence": "高"
-    },
-    "sourceAudit": {
-      "status": "verified",
-      "checkedAt": "2026-08-23",
-      "httpStatus": 200
-    }
-  },
-  {
-    "id": "verified-award-6e49ed8bec7f",
-    "name": "马一铭",
-    "initial": "马",
-    "title": "AI应用创新项目负责人 · 赛事获奖者",
-    "city": "北京",
-    "verified": false,
-    "tags": [
-      "AI产品",
-      "AIGC创作"
-    ],
-    "summary": "北京市教育委员会公开公示的AI创作或应用赛事获奖者，参赛项目为智核突破挑战赛-智行向导 自主服务引航挑战 · 顺风队。",
-    "cases": 1,
-    "awards": 1,
-    "media": 1,
-    "evidence": 1,
-    "score": 83,
-    "sources": [
-      "北京市教育委员会",
-      "首届北京市大学生“人工智能+”创新大赛"
-    ],
-    "reason": "赛事主办或承办院校官网明确列示姓名、项目及奖项，可从原始公示追溯。",
-    "works": [
-      [
-        "智核突破挑战赛-智行向导 自主服务引航挑战 · 顺风队",
-        "首届北京市大学生“人工智能+”创新大赛 · 一等奖",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "achievements": [
-      [
-        "首届北京市大学生“人工智能+”创新大赛 · 一等奖",
-        "获奖项目：智核突破挑战赛-智行向导 自主服务引航挑战 · 顺风队",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "mentions": [
-      [
-        "北京市教育委员会 · 获奖结果公示",
-        "首届北京市大学生“人工智能+”创新大赛",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "income": [],
-    "real": true,
-    "officialEvidence": true,
-    "sourceUrl": "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html",
-    "cityEvidence": {
-      "reason": "依据参赛院校或赛事官方发布单位归属北京",
-      "url": "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html",
-      "confidence": "高"
-    },
-    "sourceAudit": {
-      "status": "verified",
-      "checkedAt": "2026-08-23",
-      "httpStatus": 200
-    }
-  },
-  {
-    "id": "verified-award-377e3a0ea30f",
-    "name": "黄嘉明",
-    "initial": "黄",
-    "title": "AI应用创新项目负责人 · 赛事获奖者",
-    "city": "北京",
-    "verified": false,
-    "tags": [
-      "AI产品",
-      "AIGC创作"
-    ],
-    "summary": "北京市教育委员会公开公示的AI创作或应用赛事获奖者，参赛项目为智核突破挑战赛-智行向导 自主服务引航挑战 · 迅风智行。",
-    "cases": 1,
-    "awards": 1,
-    "media": 1,
-    "evidence": 1,
-    "score": 83,
-    "sources": [
-      "北京市教育委员会",
-      "首届北京市大学生“人工智能+”创新大赛"
-    ],
-    "reason": "赛事主办或承办院校官网明确列示姓名、项目及奖项，可从原始公示追溯。",
-    "works": [
-      [
-        "智核突破挑战赛-智行向导 自主服务引航挑战 · 迅风智行",
-        "首届北京市大学生“人工智能+”创新大赛 · 三等奖",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "achievements": [
-      [
-        "首届北京市大学生“人工智能+”创新大赛 · 三等奖",
-        "获奖项目：智核突破挑战赛-智行向导 自主服务引航挑战 · 迅风智行",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "mentions": [
-      [
-        "北京市教育委员会 · 获奖结果公示",
-        "首届北京市大学生“人工智能+”创新大赛",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "income": [],
-    "real": true,
-    "officialEvidence": true,
-    "sourceUrl": "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html",
-    "cityEvidence": {
-      "reason": "依据参赛院校或赛事官方发布单位归属北京",
-      "url": "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html",
-      "confidence": "高"
-    },
-    "sourceAudit": {
-      "status": "verified",
-      "checkedAt": "2026-08-23",
-      "httpStatus": 200
-    }
-  },
-  {
-    "id": "verified-award-5fc124474e56",
-    "name": "黄家铭",
-    "initial": "黄",
-    "title": "AI应用创新项目负责人 · 赛事获奖者",
-    "city": "北京",
-    "verified": false,
-    "tags": [
-      "AI产品",
-      "AIGC创作"
-    ],
-    "summary": "北京市教育委员会公开公示的AI创作或应用赛事获奖者，参赛项目为智核突破挑战赛-智行向导 自主服务引航挑战 · 电智领航队。",
-    "cases": 1,
-    "awards": 1,
-    "media": 1,
-    "evidence": 1,
-    "score": 83,
-    "sources": [
-      "北京市教育委员会",
-      "首届北京市大学生“人工智能+”创新大赛"
-    ],
-    "reason": "赛事主办或承办院校官网明确列示姓名、项目及奖项，可从原始公示追溯。",
-    "works": [
-      [
-        "智核突破挑战赛-智行向导 自主服务引航挑战 · 电智领航队",
-        "首届北京市大学生“人工智能+”创新大赛 · 二等奖",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "achievements": [
-      [
-        "首届北京市大学生“人工智能+”创新大赛 · 二等奖",
-        "获奖项目：智核突破挑战赛-智行向导 自主服务引航挑战 · 电智领航队",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "mentions": [
-      [
-        "北京市教育委员会 · 获奖结果公示",
-        "首届北京市大学生“人工智能+”创新大赛",
-        "2026-01-28",
-        "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html"
-      ]
-    ],
-    "income": [],
-    "real": true,
-    "officialEvidence": true,
-    "sourceUrl": "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html",
-    "cityEvidence": {
-      "reason": "依据参赛院校或赛事官方发布单位归属北京",
-      "url": "https://jw.beijing.gov.cn/tzgg/202601/t20260128_4472500.html",
-      "confidence": "高"
-    },
-    "sourceAudit": {
-      "status": "verified",
-      "checkedAt": "2026-08-23",
-      "httpStatus": 200
-    }
+    "aliases": [
+      "噼哩啪啦猴",
+      "噼里啪啦猴"
+    ]
   },
   {
     "id": "verified-award-875b66242c36",
@@ -7878,128 +7384,6 @@
       [
         "全球人工智能技术创新大赛 · 全国一等奖",
         "获奖项目：大场景多对象检测跟踪 · 春眠不觉小",
-        "2021",
-        "https://gaiic.tianchi.aliyun.com/"
-      ]
-    ],
-    "mentions": [
-      [
-        "杭州市余杭区人民政府 / 中国人工智能学会 · 获奖结果公示",
-        "全球人工智能技术创新大赛",
-        "2021",
-        "https://gaiic.tianchi.aliyun.com/"
-      ]
-    ],
-    "income": [],
-    "real": true,
-    "officialEvidence": true,
-    "sourceUrl": "https://gaiic.tianchi.aliyun.com/",
-    "cityEvidence": {
-      "reason": "依据参赛院校或赛事官方发布单位归属杭州",
-      "url": "https://gaiic.tianchi.aliyun.com/",
-      "confidence": "高"
-    },
-    "sourceAudit": {
-      "status": "verified",
-      "checkedAt": "2026-08-23",
-      "httpStatus": 200
-    }
-  },
-  {
-    "id": "verified-award-0ad9167f78c8",
-    "name": "高奕博",
-    "initial": "高",
-    "title": "AIGC视频创作者 · 赛事获奖者",
-    "city": "杭州",
-    "verified": false,
-    "tags": [
-      "AI视频",
-      "AIGC创作"
-    ],
-    "summary": "杭州市余杭区人民政府 / 中国人工智能学会公开公示的AI创作或应用赛事获奖者，参赛项目为医学影像报告异常检测 · 别再卷了。",
-    "cases": 1,
-    "awards": 1,
-    "media": 1,
-    "evidence": 1,
-    "score": 83,
-    "sources": [
-      "杭州市余杭区人民政府 / 中国人工智能学会",
-      "全球人工智能技术创新大赛"
-    ],
-    "reason": "赛事主办或承办院校官网明确列示姓名、项目及奖项，可从原始公示追溯。",
-    "works": [
-      [
-        "医学影像报告异常检测 · 别再卷了",
-        "全球人工智能技术创新大赛 · 全国一等奖",
-        "2021",
-        "https://gaiic.tianchi.aliyun.com/"
-      ]
-    ],
-    "achievements": [
-      [
-        "全球人工智能技术创新大赛 · 全国一等奖",
-        "获奖项目：医学影像报告异常检测 · 别再卷了",
-        "2021",
-        "https://gaiic.tianchi.aliyun.com/"
-      ]
-    ],
-    "mentions": [
-      [
-        "杭州市余杭区人民政府 / 中国人工智能学会 · 获奖结果公示",
-        "全球人工智能技术创新大赛",
-        "2021",
-        "https://gaiic.tianchi.aliyun.com/"
-      ]
-    ],
-    "income": [],
-    "real": true,
-    "officialEvidence": true,
-    "sourceUrl": "https://gaiic.tianchi.aliyun.com/",
-    "cityEvidence": {
-      "reason": "依据参赛院校或赛事官方发布单位归属杭州",
-      "url": "https://gaiic.tianchi.aliyun.com/",
-      "confidence": "高"
-    },
-    "sourceAudit": {
-      "status": "verified",
-      "checkedAt": "2026-08-23",
-      "httpStatus": 200
-    }
-  },
-  {
-    "id": "verified-award-95a89093280c",
-    "name": "鲁维海",
-    "initial": "鲁",
-    "title": "AI应用创新项目负责人 · 赛事获奖者",
-    "city": "杭州",
-    "verified": false,
-    "tags": [
-      "AI产品",
-      "AIGC创作"
-    ],
-    "summary": "杭州市余杭区人民政府 / 中国人工智能学会公开公示的AI创作或应用赛事获奖者，参赛项目为对话短文本语义匹配 · LOL王者。",
-    "cases": 1,
-    "awards": 1,
-    "media": 1,
-    "evidence": 1,
-    "score": 83,
-    "sources": [
-      "杭州市余杭区人民政府 / 中国人工智能学会",
-      "全球人工智能技术创新大赛"
-    ],
-    "reason": "赛事主办或承办院校官网明确列示姓名、项目及奖项，可从原始公示追溯。",
-    "works": [
-      [
-        "对话短文本语义匹配 · LOL王者",
-        "全球人工智能技术创新大赛 · 全国二等奖",
-        "2021",
-        "https://gaiic.tianchi.aliyun.com/"
-      ]
-    ],
-    "achievements": [
-      [
-        "全球人工智能技术创新大赛 · 全国二等奖",
-        "获奖项目：对话短文本语义匹配 · LOL王者",
         "2021",
         "https://gaiic.tianchi.aliyun.com/"
       ]
