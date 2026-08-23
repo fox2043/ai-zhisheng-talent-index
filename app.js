@@ -64,7 +64,7 @@ Object.assign(wangProfile,{
   ['青少年“数字AI艺术赋能课”','面向学生开展AI作诗、绘画、编曲与故事创作教学','公开报道','https://mp.weixin.qq.com/s/c5KsuirI1CnAFhAo5cI27w']
  ],
  achievements:[
-  ['全球AI电影马拉松大赛 · 最佳叙事奖作品《蒙娜丽莎》','该奖项归属作品及团队；大狐（王巍人）担任获奖作品制片人','赛事报道','https://mp.weixin.qq.com/s/chZObGtqpT1HGw7eYgKTJA']
+  ['全球AI电影马拉松大赛 · 最佳叙事奖','该奖项归属获奖作品及团队；大狐（王巍人）担任获奖作品制片人','赛事报道','https://mp.weixin.qq.com/s/chZObGtqpT1HGw7eYgKTJA']
  ],
  mentions:[
   ['紧跟技术浪潮 赋能未来创新','上海纪录片学院课程报道，列示大狐（王巍人）的AI导师、AI知声主理人及WAIC分享嘉宾身份','公开报道','https://mp.weixin.qq.com/s/vqXKpyDSGjYduyq4pv8OUA'],
