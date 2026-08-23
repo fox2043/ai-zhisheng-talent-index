@@ -51,7 +51,37 @@ publicTalents.push(
 const auditedCuratedIds=new Set(['wang-weiren-da-hu','yang-jianwei','haixin','simon-awen','mei-yihan','e-li','waytoagi-dapeng','li-yunfan','ran-wei','wang-tao','ruolan','pang-haoyang','zhang-genming','zhu-xu-aigc','wang-xingjian','ding-yi-aigc','yuan-chao-wuhan','cai-xinyuan-wuhan','wu-ziyan-suzhou','yang-xiaoci-suzhou','liu-zhenglin-suzhou','chen-yonghong-xiamen','chen-duo-xiamen','guo-jiahao-zhengzhou','ding-zhiyuan-zhengzhou','ma-yongchen-qingdao']);
 for(const t of publicTalents)t.officialEvidence=auditedCuratedIds.has(t.id);
 const wangProfile=publicTalents.find(t=>t.id==='wang-weiren-da-hu');
-Object.assign(wangProfile,{title:'AI视频从业者 · AI知声社区主理人',tags:['AI视频','AI漫剧','社区主理人','OPC'],summary:'公开资料分别记录“大狐”为 AI 视频从业者、AI知声社区主理人，以及王巍人为莫奈丽莎AI联合创始人、AI短剧圆桌嘉宾；合并关系由项目方确认，公开来源分别列示。',cases:1,awards:0,media:1,evidence:2,score:82,sources:['AITOP100公开作者信息','上海市人工智能行业协会活动信息'],reason:'两项可访问来源分别验证其 AI知声社区主理人及莫奈丽莎AI联合创始人、AI短剧从业身份。',works:[['大狐 · AITOP100公开作者信息','页面列示为WAIC分享嘉宾、AI视频从业者、AI知声社区主理人','公开页面','https://www.aitop100.cn/search/?text=AI%E8%A7%86%E9%A2%91']],achievements:[],mentions:[['“AI新纪元·超级个体”创变者沙龙','原始来源标注为上海市人工智能行业协会微信公众号；列示王巍人为莫奈丽莎AI联合创始人','2026-01-07','https://m.xwboo.com/news/detail-228518.html']],income:[],sourceUrl:'https://www.aitop100.cn/search/?text=AI%E8%A7%86%E9%A2%91'});
+Object.assign(wangProfile,{
+ title:'AIGC视频创作者 · AI知声社区主理人',
+ city:'上海',
+ verified:true,
+ tags:['AI视频','AI漫剧','AI导师','社区主理人','商业广告'],
+ summary:'多所院校AI导师、AIGC视频创作者，上海知声聚力科技有限公司创始人、AI知声社区主理人，曾担任WAIC世界人工智能大会分会场分享嘉宾。',
+ cases:3,
+ awards:1,
+ media:6,
+ evidence:6,
+ score:93,
+ sources:['上海纪录片学院','法治日报','上海市科技创业中心','黄浦区相关活动报道','全球AI电影马拉松大赛','上海市新阶层志愿服务团'],
+ reason:'6条可访问的微信公众号报道可追踪其AI教学、AIGC视频商业实践、AI知声社区主理人、WAIC分享嘉宾及赛事作品经历；“上海知声聚力科技有限公司创始人”为项目方提供信息。',
+ works:[
+  ['上海纪录片学院《生成式人工智能前沿与应用》课程','以“大狐（王巍人）老师”身份主讲，公开介绍其AI导师、AI知声主理人与WAIC分享经历','公开报道','https://mp.weixin.qq.com/s/vqXKpyDSGjYduyq4pv8OUA'],
+  ['《通往虚拟创作天地的视频短剧密钥》项目','在2025元宇宙创新大会路演AI视频技术及短剧商业化落地路径','公开报道','https://mp.weixin.qq.com/s/Hj5UbEVeRpiUmlJ-fVYaRg'],
+  ['青少年“数字AI艺术赋能课”','面向学生开展AI作诗、绘画、编曲与故事创作教学','公开报道','https://mp.weixin.qq.com/s/c5KsuirI1CnAFhAo5cI27w']
+ ],
+ achievements:[
+  ['全球AI电影马拉松大赛 · 最佳叙事奖作品《蒙娜丽莎》','该奖项归属作品及团队；大狐（王巍人）担任获奖作品制片人','赛事报道','https://mp.weixin.qq.com/s/chZObGtqpT1HGw7eYgKTJA']
+ ],
+ mentions:[
+  ['紧跟技术浪潮 赋能未来创新','上海纪录片学院课程报道，列示大狐（王巍人）的AI导师、AI知声主理人及WAIC分享嘉宾身份','公开报道','https://mp.weixin.qq.com/s/vqXKpyDSGjYduyq4pv8OUA'],
+  ['漫剧行业扩张 警惕AI洗稿侵权','以AI知声社区主理人身份接受采访，分析AI漫剧生产与行业趋势','公开报道','https://mp.weixin.qq.com/s/Jukoz3LaGFbXN1eBGVaUyg'],
+  ['第四期“金融X科创”研修营导师团','公开列示王巍人为第六届上海创新创业青年50人论坛AI导师','公开报道','https://mp.weixin.qq.com/s/PMke-GYyk9Uf_KIhfiRDSA'],
+  ['2025元宇宙创新大会','公开记录其AI视频、AI短剧技术与商业化项目路演','公开报道','https://mp.weixin.qq.com/s/Hj5UbEVeRpiUmlJ-fVYaRg'],
+  ['乐学CLASS｜当“五心”遇见AI','公开列示其WAIC分享嘉宾、AI知声主理人身份及AI教学活动','公开报道','https://mp.weixin.qq.com/s/c5KsuirI1CnAFhAo5cI27w']
+ ],
+ income:[],
+ sourceUrl:'https://mp.weixin.qq.com/s/vqXKpyDSGjYduyq4pv8OUA'
+});
 const yangProfile=publicTalents.find(t=>t.id==='yang-jianwei');
 Object.assign(yangProfile,{title:'济南OPC创业者 · AI网站应用创作者',tags:['OPC','AI网站','AI设计','AI应用'],summary:'齐鲁网·闪电新闻报道的济南00后OPC创业者，使用AI工具完成需求沟通、网站开发、设计和运维等工作。',cases:1,awards:0,media:1,evidence:2,score:86,sources:['齐鲁网','闪电新闻'],reason:'省级媒体原始人物报道明确其姓名、济南OPC身份、产品实践及AI工具使用方式。',works:[['AI导航与定制网站实践','报道记录其独立迭代网站并开展AI定制网站业务','2026-05-04','https://sdxw.iqilu.com/share/YS0yMS0xNzE3ODQwNg.html']],achievements:[],mentions:[['闪电新闻 / 齐鲁网 · 你好00后｜“创业”之单人成军 他的员工全是AI','省级媒体原始人物报道','2026-05-04','https://sdxw.iqilu.com/share/YS0yMS0xNzE3ODQwNg.html']],income:[],sourceUrl:'https://sdxw.iqilu.com/share/YS0yMS0xNzE3ODQwNg.html'});
 const curatedUpdates={
@@ -66,7 +96,7 @@ const curatedUpdates={
 };
 for(const [id,update] of Object.entries(curatedUpdates))Object.assign(publicTalents.find(t=>t.id===id),update);
 const cityEvidence={
- 'wang-weiren-da-hu':['未公开','现有公开来源不足以判定常驻城市','https://www.aitop100.cn/search/?text=AI%E8%A7%86%E9%A2%91','待补证'],
+ 'wang-weiren-da-hu':['上海','多条上海院校、社区及产业活动报道记录其在沪开展AI教学和AI视频项目，按项目城市归属上海','https://mp.weixin.qq.com/s/vqXKpyDSGjYduyq4pv8OUA','高'],
  'yang-jianwei':['济南','报道明确称其为济南OPC创业代表','https://sdxw.iqilu.com/share/YS0yMS0xNzE3ODQwNg.html','高'],
  'haixin':['上海','澎湃报道明确称来自上海的AI创作者','https://www.thepaper.cn/newsDetail_forward_32325618','高'],
  'simon-awen':['上海','澎湃报道明确称来自上海的AI创作者','https://www.thepaper.cn/newsDetail_forward_32325618','高'],
