@@ -260,6 +260,7 @@ document.addEventListener('submit',async e=>{
 function cleanPublicCopy(html){
  const escaped=blockedSourceName.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
  return html
+  .replace(/<div class="examples">[\s\S]*?<\/div>/g,'')
   .replace(new RegExp(`<option[^>]*>${escaped}</option>`,'g'),'')
   .replace(new RegExp(`<button[^>]*data-source-search="${escaped}"[^>]*>${escaped}</button>`,'g'),'')
   .replace(new RegExp(`<tr>(?:(?!</tr>)[\\s\\S])*${escaped}(?:(?!</tr>)[\\s\\S])*</tr>`,'g'),'')
@@ -329,7 +330,8 @@ document.addEventListener('submit',async e=>{
  try{const res=await fetch(editing?`/api/scenarios/${encodeURIComponent(data.id)}`:'/api/scenarios',{method:editing?'PUT':'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)}),saved=await res.json();if(!res.ok)throw new Error(saved.error||'保存失败');const index=aiScenarios.findIndex(s=>s.id===saved.id);if(index>=0)aiScenarios[index]=saved;else aiScenarios.push(saved);document.querySelector('#scenarioModal')?.remove();toast('场景配置已同步前台');render()}catch(error){status.textContent=error.message}
 });
 function render(){
- app.innerHTML=state.route==='home'?home():state.route==='search'?search():state.route==='scenarios'?scenarioLab():state.route==='profile'?profile():state.route==='standards'?standards():admin();
+ const view=state.route==='home'?home():state.route==='search'?search():state.route==='scenarios'?scenarioLab():state.route==='profile'?profile():state.route==='standards'?standards():admin();
+ app.innerHTML=cleanPublicCopy(view);
  document.querySelectorAll('.brand-logo').forEach(img=>img.src='assets/ai-zhisheng-logo.png');
  if(state.route==='home'){
   const note=document.querySelector('.hero-note');
