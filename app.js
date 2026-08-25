@@ -340,6 +340,7 @@ function render(){
  const view=state.route==='home'?home():state.route==='search'?search():state.route==='scenarios'?scenarioLab():state.route==='profile'?profile():state.route==='standards'?standards():admin();
  app.innerHTML=cleanPublicCopy(view);
  document.querySelectorAll('.brand-logo').forEach(img=>img.src='assets/ai-zhisheng-logo.png');
+ if(state.route==='standards'){const noteTitle=document.querySelector('.standard-note span b');if(noteTitle)noteTitle.textContent='档案范围'}
  if(state.route==='home'){
   const note=document.querySelector('.hero-note');
   if(note){note.querySelector('strong').textContent='找到能落地的 AI 人才';note.querySelector('p').textContent='按城市、行业、能力与可信案例筛选；先看他做成过什么、是否匹配您的业务，再决定是否进一步合作。'}
