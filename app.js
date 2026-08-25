@@ -297,6 +297,7 @@ async function loadDataset(){
   }
   talents.splice(0,talents.length,...talents.filter(hasTraceableSource));
   applyCityCaps();
+  talents.forEach(t=>t.income=[]);
   aiScenarios.splice(0,aiScenarios.length,...scenarioRows);
   state.adminTalents=[...talents,...adminRows.filter(t=>!talents.some(x=>x.id===t.id))];state.datasetLoaded=true;
  }catch(e){console.warn('dataset load failed',e)}
@@ -341,8 +342,8 @@ function render(){
  app.innerHTML=cleanPublicCopy(view);
  document.querySelectorAll('.brand-logo').forEach(img=>img.remove());
  const footer=document.querySelector('.footer');
- if(footer){footer.querySelector(':scope > small:last-child').textContent='档案信息仅供合作前参考 · 2026';footer.insertAdjacentHTML('beforebegin','<section class="cooperation-banner"><div><span>合作交流</span><h2>欢迎联系大狐</h2><p>可交流人才合作、项目共创与行业场景落地。</p></div><div class="cooperation-details"><a href="tel:13621803694"><small>电话</small>136 2180 3694</a><b><small>微信</small>Mrfox0425</b></div></section>')}
- if(state.route==='standards'){const noteTitle=document.querySelector('.standard-note span b');if(noteTitle)noteTitle.textContent='档案范围'}
+ if(footer){footer.querySelector(':scope > small:last-child').textContent='档案信息仅供合作前参考 · 2026';footer.insertAdjacentHTML('beforebegin','<section class="cooperation-banner"><div><span>合作交流</span><h2>欢迎联系大狐</h2><p>可交流人才合作、项目共创与行业场景、商业落地等合作。</p></div><div class="cooperation-details"><a href="tel:13621803694"><small>电话</small>136 2180 3694</a><b><small>微信</small>Mrfox0425</b></div></section>')}
+ if(state.route==='standards'){const noteTitle=document.querySelector('.standard-note span b');if(noteTitle)noteTitle.textContent='档案范围';document.querySelectorAll('.rule-table tr').forEach(row=>{if(row.textContent.includes('公开收入'))row.remove()})}
  if(state.route==='home'){
   document.querySelector('.source-cloud')?.closest('section')?.remove();
   const method=document.querySelector('.method');
@@ -351,6 +352,7 @@ function render(){
   if(note){note.querySelector('strong').textContent='找到能落地的 AI 人才';note.querySelector('p').textContent='按城市、行业、能力与可信案例筛选；先看他做成过什么、是否匹配您的业务，再决定是否进一步合作。'}
  }
  if(state.route==='profile'){
+  document.querySelectorAll('.dossier').forEach(dossier=>{if(dossier.querySelector('h2')?.textContent.includes('公开收入'))dossier.remove()});
   const t=talents.find(x=>x.id===state.selected);
   if(t?.real){const n=document.querySelector('.demo-note');if(n)n.textContent='真实公开档案：信息来自公开网页；正式上线前仍需逐条复核原文链接与更新时间。'}
  }
