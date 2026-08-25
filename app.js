@@ -348,7 +348,7 @@ function render(){
  app.innerHTML=cleanPublicCopy(view);
  document.querySelectorAll('.brand-logo').forEach(img=>img.remove());
  const footer=document.querySelector('.footer');
- if(footer){footer.querySelector(':scope > small:last-child').textContent='档案信息仅供合作前参考 · 2026';footer.insertAdjacentHTML('beforebegin','<section class="cooperation-banner"><div><span>合作交流</span><h2>欢迎联系大狐</h2><p>可交流人才合作、项目共创与行业场景、商业落地等合作。</p></div><div class="cooperation-details"><a href="tel:13621803694"><small>电话</small>136 2180 3694</a><b><small>微信</small>Mrfox0425</b></div></section>')}
+ if(footer){footer.outerHTML='<footer class="cooperation-banner site-footer"><div class="site-footer-inner"><section class="site-footer-contact"><div class="site-footer-copy"><span>合作交流</span><h2>欢迎联系大狐</h2><p>可交流人才合作、项目共创与行业场景、商业落地等合作。</p></div><div class="cooperation-details"><a class="contact-item" href="tel:13621803694"><small>电话</small><strong>136 2180 3694</strong></a><div class="contact-item"><small>微信</small><strong>Mrfox0425</strong></div></div></section><section class="site-footer-meta"><div><b>AI知声 · 全国 AI 人才可信档案库</b><small>公开档案与演示档案已分别标注，所有真实信息以原始来源为准。</small></div><small>档案信息仅供合作前参考 · 2026</small></section></div></footer>'}
  if(state.route==='standards'){const noteTitle=document.querySelector('.standard-note span b');if(noteTitle)noteTitle.textContent='档案范围';document.querySelectorAll('.rule-table tr').forEach(row=>{if(row.textContent.includes('公开收入'))row.remove()})}
  if(state.route==='home'){
   document.querySelector('.source-cloud')?.closest('section')?.remove();
