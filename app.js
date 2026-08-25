@@ -341,9 +341,12 @@ function render(){
  app.innerHTML=cleanPublicCopy(view);
  document.querySelectorAll('.brand-logo').forEach(img=>img.src='assets/ai-zhisheng-logo.png');
  const footer=document.querySelector('.footer');
- if(footer){footer.querySelector(':scope > small:last-child').textContent='档案信息仅供合作前参考 · 2026';footer.insertAdjacentHTML('beforeend','<div class="footer-contact"><span>合作请联系</span><strong>大狐</strong><div><a href="tel:13621803694">电话 136 2180 3694</a><i></i><b>微信 Mrfox0425</b></div><small>欢迎咨询合作</small></div>')}
+ if(footer){footer.querySelector(':scope > small:last-child').textContent='档案信息仅供合作前参考 · 2026';footer.insertAdjacentHTML('beforebegin','<section class="cooperation-banner"><div><span>合作请联系</span><h2>需要匹配 AI 人才？欢迎联系大狐</h2><p>可交流人才合作、AI内容创作与场景落地需求。</p></div><div class="cooperation-details"><a href="tel:13621803694"><small>电话</small>136 2180 3694</a><b><small>微信</small>Mrfox0425</b></div></section>')}
  if(state.route==='standards'){const noteTitle=document.querySelector('.standard-note span b');if(noteTitle)noteTitle.textContent='档案范围'}
  if(state.route==='home'){
+  document.querySelector('.source-cloud')?.closest('section')?.remove();
+  const method=document.querySelector('.method');
+  if(method)method.outerHTML='<section class="source-intro"><span>人才来源说明</span><h2>公开信息筛选，保留可核验依据。</h2><p>本库从公开可访问的报道、赛事公示、作品署名与机构发布信息中进行人工检索与筛选。每位展示人才均至少保留一条可跳转核验的来源链接；仅有个人自述、无法确认身份或链接失效的信息不予展示。企业可将档案作为合作前的线索参考，并结合实际需求进一步沟通与核实。</p></section>';
   const note=document.querySelector('.hero-note');
   if(note){note.querySelector('strong').textContent='找到能落地的 AI 人才';note.querySelector('p').textContent='按城市、行业、能力与可信案例筛选；先看他做成过什么、是否匹配您的业务，再决定是否进一步合作。'}
  }
