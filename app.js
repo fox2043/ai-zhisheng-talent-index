@@ -340,6 +340,8 @@ function render(){
  const view=state.route==='home'?home():state.route==='search'?search():state.route==='scenarios'?scenarioLab():state.route==='profile'?profile():state.route==='standards'?standards():admin();
  app.innerHTML=cleanPublicCopy(view);
  document.querySelectorAll('.brand-logo').forEach(img=>img.src='assets/ai-zhisheng-logo.png');
+ const footer=document.querySelector('.footer');
+ if(footer){footer.querySelector(':scope > small:last-child').textContent='档案信息仅供合作前参考 · 2026';footer.insertAdjacentHTML('beforeend','<div class="footer-contact"><span>合作请联系</span><strong>大狐</strong><div><a href="tel:13621803694">电话 136 2180 3694</a><i></i><b>微信 Mrfox0425</b></div><small>欢迎咨询合作</small></div>')}
  if(state.route==='standards'){const noteTitle=document.querySelector('.standard-note span b');if(noteTitle)noteTitle.textContent='档案范围'}
  if(state.route==='home'){
   const note=document.querySelector('.hero-note');
