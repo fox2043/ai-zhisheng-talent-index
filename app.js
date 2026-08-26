@@ -281,8 +281,9 @@ async function loadDataset(){
  if(state.datasetLoaded)return;
  try{
   const readJson=async(url,fallback=[])=>{try{const res=await fetch(url);if(!res.ok)return fallback;return JSON.parse((await res.text()).replace(/^\uFEFF/,''))}catch{return fallback}};
+  const apiAvailable=!location.hostname.endsWith('github.io');
   const staticScenarios=await readJson('data/scenarios.json',aiScenarios);
-  const groups=await Promise.all([readJson('data/talents.json'),readJson('data/metro-talents.json'),readJson('/api/talents'),readJson('/api/deleted-talents'),readJson('/api/scenarios',staticScenarios)]);
+  const groups=await Promise.all([readJson('data/talents.json'),readJson('data/metro-talents.json'),apiAvailable?readJson('/api/talents'):[],apiAvailable?readJson('/api/deleted-talents'):[],apiAvailable?readJson('/api/scenarios',staticScenarios):staticScenarios]);
   const [baseRows,metroRows,adminRows,deletedRows,scenarioRows]=groups,deleted=new Set(deletedRows),known=new Set(talents.map(t=>t.id));
   talents.splice(0,talents.length,...talents.filter(t=>!deleted.has(t.id)));
   for(const raw of [...baseRows,...metroRows]){
