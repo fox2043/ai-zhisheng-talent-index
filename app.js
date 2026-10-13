@@ -218,12 +218,15 @@ const scenarioRules={
 function scenarioEvidenceText(t){return [t.title,t.summary,t.reason,...(t.works||[]).flat(),...(t.achievements||[]).flat(),...(t.mentions||[]).flat()].filter(x=>typeof x==='string'&&!/^https?:\/\//i.test(x)).join(' ').toLowerCase()}
 function scenarioMatchEvidence(t,s){
  if(!hasTraceableSource(t))return [];
- const anchors={food:/餐饮|餐厅|菜品|菜单|餐馆|餐食/,ecommerce:/电商|网店|带货|商品图|listing|SKU/i,manufacturing:/工业|制造业|工厂|质检|生产线|设备故障|工业机器人/,tourism:/文旅|旅游|景区|城市宣传|博物馆|数字导览/,education:/教学|课件|课程|培训|授课|教育产品|学习陪练/,retail:/零售|商超|导购|消费品牌|门店运营/,property:/房地产|房产|楼盘|户型|样板间|建筑可视化|空间设计/,health:/医疗|医院|诊疗|医药|康复|健康档案/,finance:/银行|保险|证券|金融业务|金融风控|金融产品/,media:/视频|动画|影像|短剧|漫剧|电影|春晚|影视|创意广告/};
+ const anchors={food:/餐饮|餐厅|菜品|菜单|餐馆|餐食/,ecommerce:/电商|网店|带货|商品图|listing|SKU/i,manufacturing:/工业|制造业|工厂|质检|生产线|设备故障|工业机器人/,tourism:/文旅|旅游|景区|城市宣传|博物馆|数字导览/,education:/教学|课件|课程|培训|授课|教育产品|学习陪练/,retail:/零售|商超|导购|消费品牌|门店运营/,property:/房地产|房产|楼盘|户型|样板间|建筑可视化|空间设计/,health:/医疗|医院|诊疗|医药|康复|健康档案/,finance:/银行|保险|证券|金融业务|金融风控|金融产品|金融AI|金融大模型|金融信贷|信贷审批/i,media:/视频|动画|影像|短剧|漫剧|电影|春晚|影视|创意广告/};
  const anchor=anchors[s.id];if(!anchor)return [];
  const ai=/\bAI\b|AIGC|人工智能|智能体|大模型|生成式/i;
- const delivery=s.id==='education'?/主讲|教学|授课|课程|培训|课件|开发|制作|上线|推出|构建|实践/:/创作|制作|开发|交付|上线|推出|执导|主创|出品|联合制片|共同创作|产品|项目|解决方案|服务|应用|设计/;
+ const delivery=s.id==='education'?/主讲|教学|授课|课程|培训|课件|开发|制作|上线|推出|构建|实践/:/创作|制作|开发|搭建|交付|上线|推出|执导|主创|出品|联合制片|共同创作|产品|项目|解决方案|服务|应用|设计/;
  const matches=[...(t.works||[]),...(t.mentions||[]),...(t.achievements||[])].filter(item=>{
   if(!item?.[3]||!traceableLinks(t).includes(item[3])||/城市归属依据/.test(item[0]||''))return false;
+  const recordText=[item[0],item[1]].join(' ');
+  if(s.id==='manufacturing'&&/内容工厂|素材工厂|创意工厂/.test(recordText))return false;
+  if(s.id==='media'&&/医疗|医学影像|诊疗|肺结节|诊断/.test(recordText))return false;
   // Require the industry and actual AI work to occur together, not across unrelated biography fields.
   const clauses=[item[0],item[1]].join('。').split(/[。；;\n]/);
   return clauses.some(text=>anchor.test(text)&&ai.test(text)&&delivery.test(text)
@@ -341,7 +344,7 @@ document.addEventListener('submit',async e=>{
 function render(){
  const view=state.route==='home'?home():state.route==='search'?search():state.route==='scenarios'?scenarioLab():state.route==='profile'?profile():state.route==='standards'?standards():admin();
  app.innerHTML=cleanPublicCopy(view);
- document.querySelectorAll('.lab-method,.rule-table').forEach(section=>section.remove());
+ document.querySelectorAll('.lab-method,.rule-table,.scenario-start').forEach(section=>section.remove());
  if(state.route==='search'&&state.scenarioFilter){
   const scene=aiScenarios.find(s=>s.id===state.scenarioFilter);
   document.querySelectorAll('.result-card').forEach(card=>{
