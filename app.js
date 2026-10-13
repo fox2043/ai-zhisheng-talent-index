@@ -286,7 +286,8 @@ async function loadDataset(){
  const readJson=async(url,fallback=[])=>{try{const res=await fetch(url);if(!res.ok)throw Error('读取失败');return await res.json()}catch{return fallback}};
  const apiAvailable=!location.hostname.endsWith('github.io');
  const staticScenarios=await readJson('data/scenarios.json',aiScenarios);
- const [rows,deletedRows,scenarios]=await Promise.all([apiAvailable?readJson('/api/talents'):readJson('data/roster.json'),apiAvailable?readJson('/api/deleted-talents'):[],apiAvailable?readJson('/api/scenarios',staticScenarios):staticScenarios]);
+ const staticRoster=await readJson('data/roster.json');
+ const [rows,deletedRows,scenarios]=await Promise.all([apiAvailable?readJson('/api/talents',staticRoster):staticRoster,apiAvailable?readJson('/api/deleted-talents'):[],apiAvailable?readJson('/api/scenarios',staticScenarios):staticScenarios]);
  const deleted=new Set(deletedRows);
  state.adminTalents=rows.filter(t=>t.rosterManaged===true&&!deleted.has(t.id)).map(enforceEvidencePolicy);
  talents.splice(0,talents.length,...state.adminTalents.filter(hasTraceableSource));
