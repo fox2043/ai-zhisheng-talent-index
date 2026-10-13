@@ -216,18 +216,25 @@ const scenarioRules={
  media:{capabilities:['AI短剧','AI漫剧','AI视频','AI动画','商业广告'],keywords:['影像','视频','短剧','漫剧','动画','广告','导演','制片','影视','内容创作']}
 };
 function scenarioEvidenceText(t){return [t.title,t.summary,t.reason,...(t.works||[]).flat(),...(t.achievements||[]).flat(),...(t.mentions||[]).flat()].filter(x=>typeof x==='string'&&!/^https?:\/\//i.test(x)).join(' ').toLowerCase()}
-function scenarioTalentScore(t,s){
- if(!hasTraceableSource(t))return 0;
- const anchors={food:/餐饮|餐厅|菜品|菜单|餐馆|餐食/,ecommerce:/电商|网店|带货|商品图|listing|SKU/i,manufacturing:/工业|制造业|工厂|质检|生产线|设备故障|工业机器人/,tourism:/文旅|旅游|景区|城市宣传|博物馆|数字导览/,education:/教学|课件|课程|培训|授课|教育产品|学习陪练/,retail:/零售|商超|导购|消费品牌|门店运营/,property:/房地产|房产|楼盘|户型|样板间|建筑可视化|空间设计/,health:/医疗|医院|诊疗|医药|康复|健康档案/,finance:/银行|保险|证券|金融业务|金融风控|金融产品/,media:/AI.{0,4}(视频|动画|影像|短剧|漫剧|电影|春晚)|AIGC.{0,4}(影视|视频)|制片|影视制作|创意广告/};
- const anchor=anchors[s.id];if(!anchor)return 0;
- const evidence=[...(t.works||[]),...(t.mentions||[])].filter(item=>{
-  if(!item?.[3]||!traceableLinks(t).includes(item[3]))return false;
-  if(/城市归属依据/.test(item[0]||''))return false;
-  const text=[item[0],item[1]].join(' ');
-  return anchor.test(text)&&!/暂未|没有相关|尚无|待核实|仅供参考/.test(text);
+function scenarioMatchEvidence(t,s){
+ if(!hasTraceableSource(t))return [];
+ const anchors={food:/餐饮|餐厅|菜品|菜单|餐馆|餐食/,ecommerce:/电商|网店|带货|商品图|listing|SKU/i,manufacturing:/工业|制造业|工厂|质检|生产线|设备故障|工业机器人/,tourism:/文旅|旅游|景区|城市宣传|博物馆|数字导览/,education:/教学|课件|课程|培训|授课|教育产品|学习陪练/,retail:/零售|商超|导购|消费品牌|门店运营/,property:/房地产|房产|楼盘|户型|样板间|建筑可视化|空间设计/,health:/医疗|医院|诊疗|医药|康复|健康档案/,finance:/银行|保险|证券|金融业务|金融风控|金融产品/,media:/视频|动画|影像|短剧|漫剧|电影|春晚|影视|创意广告/};
+ const anchor=anchors[s.id];if(!anchor)return [];
+ const ai=/\bAI\b|AIGC|人工智能|智能体|大模型|生成式/i;
+ const delivery=s.id==='education'?/主讲|教学|授课|课程|培训|课件|开发|制作|上线|推出|构建|实践/:/创作|制作|开发|交付|上线|推出|执导|主创|出品|联合制片|共同创作|产品|项目|解决方案|服务|应用|设计/;
+ const matches=[...(t.works||[]),...(t.mentions||[]),...(t.achievements||[])].filter(item=>{
+  if(!item?.[3]||!traceableLinks(t).includes(item[3])||/城市归属依据/.test(item[0]||''))return false;
+  // Require the industry and actual AI work to occur together, not across unrelated biography fields.
+  const clauses=[item[0],item[1]].join('。').split(/[。；;\n]/);
+  return clauses.some(text=>anchor.test(text)&&ai.test(text)&&delivery.test(text)
+   && !/暂未|没有相关|尚无|待核实|仅供参考|希望|计划|拟开展/.test(text)
+   && (s.id==='education'||!/导师团|研修营|分享|培训|讲师|教学|课程|参赛阵容|产业生态|产业需求/.test(text)));
  });
- if(!evidence.length)return 0;
- return evidence.length*10+((s.talentIds||[]).includes(t.id)?5:0);
+ return [...new Map(matches.map(item=>[item[3],item])).values()];
+}
+function scenarioTalentScore(t,s){
+ const evidence=scenarioMatchEvidence(t,s);
+ return evidence.length?evidence.length*10+((s.talentIds||[]).includes(t.id)?5:0):0;
 }
 function scenarioMatchedTalents(s){return talents.filter(t=>scenarioTalentScore(t,s)>0).sort((a,b)=>scenarioTalentScore(b,s)-scenarioTalentScore(a,s))}
 function scenarioTalentCount(s){return scenarioMatchedTalents(s).length}
@@ -335,6 +342,17 @@ function render(){
  const view=state.route==='home'?home():state.route==='search'?search():state.route==='scenarios'?scenarioLab():state.route==='profile'?profile():state.route==='standards'?standards():admin();
  app.innerHTML=cleanPublicCopy(view);
  document.querySelectorAll('.lab-method,.rule-table').forEach(section=>section.remove());
+ if(state.route==='search'&&state.scenarioFilter){
+  const scene=aiScenarios.find(s=>s.id===state.scenarioFilter);
+  document.querySelectorAll('.result-card').forEach(card=>{
+   const talent=talents.find(t=>t.id===card.dataset.profile);
+   if(!talent||!scene)return;
+   const evidence=scenarioMatchEvidence(talent,scene)[0];if(!evidence)return;
+   const reason=card.querySelector('.reason');
+   if(reason)reason.innerHTML=`<b>${esc(scene.industry)}匹配依据</b><br>${esc(evidence[1]||evidence[0])}<br><a href="${esc(evidence[3])}" target="_blank" rel="noopener noreferrer" class="scenario-evidence-link">查看对应来源 ↗</a>`;
+  });
+  document.querySelectorAll('.scenario-evidence-link').forEach(link=>link.addEventListener('click',event=>event.stopPropagation()));
+ }
  document.querySelectorAll('.brand-logo').forEach(img=>img.remove());
  const footer=document.querySelector('.footer');
  if(footer){footer.outerHTML='<footer class="footer"><div><b>全国 AI 人才可信档案库</b><br><small>信息以原始来源为准。</small></div><small>档案信息仅供合作前参考 · 2026</small></footer>'}
