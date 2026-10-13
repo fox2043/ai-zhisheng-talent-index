@@ -218,14 +218,16 @@ const scenarioRules={
 function scenarioEvidenceText(t){return [t.title,t.summary,t.reason,...(t.works||[]).flat(),...(t.achievements||[]).flat(),...(t.mentions||[]).flat()].filter(x=>typeof x==='string'&&!/^https?:\/\//i.test(x)).join(' ').toLowerCase()}
 function scenarioTalentScore(t,s){
  if(!hasTraceableSource(t))return 0;
- if((s.talentIds||[]).includes(t.id))return 1000+(t.cases||0)*2+(t.awards||0)+(t.media||0);
- const rule=scenarioRules[s.id];
- if(!rule)return 0;
- const capabilityHits=rule.capabilities.filter(x=>(t.tags||[]).includes(x)||t.title.includes(x)).length;
- if(!capabilityHits)return 0;
- const text=scenarioEvidenceText(t),keywordHits=rule.keywords.filter(x=>text.includes(x.toLowerCase())).length;
- if(!keywordHits)return 0;
- return capabilityHits*5+Math.min(keywordHits,3)*3+(t.cases>0?2:0)+(t.awards>0?1:0)+(t.media>0?1:0);
+ const anchors={food:/餐饮|餐厅|菜品|菜单|餐馆|餐食/,ecommerce:/电商|网店|带货|商品图|listing|SKU/i,manufacturing:/工业|制造业|工厂|质检|生产线|设备故障|工业机器人/,tourism:/文旅|旅游|景区|城市宣传|博物馆|数字导览/,education:/教学|课件|课程|培训|授课|教育产品|学习陪练/,retail:/零售|商超|导购|消费品牌|门店运营/,property:/房地产|房产|楼盘|户型|样板间|建筑可视化|空间设计/,health:/医疗|医院|诊疗|医药|康复|健康档案/,finance:/银行|保险|证券|金融业务|金融风控|金融产品/,media:/AI.{0,4}(视频|动画|影像|短剧|漫剧|电影|春晚)|AIGC.{0,4}(影视|视频)|制片|影视制作|创意广告/};
+ const anchor=anchors[s.id];if(!anchor)return 0;
+ const evidence=[...(t.works||[]),...(t.mentions||[])].filter(item=>{
+  if(!item?.[3]||!traceableLinks(t).includes(item[3]))return false;
+  if(/城市归属依据/.test(item[0]||''))return false;
+  const text=[item[0],item[1]].join(' ');
+  return anchor.test(text)&&!/暂未|没有相关|尚无|待核实|仅供参考/.test(text);
+ });
+ if(!evidence.length)return 0;
+ return evidence.length*10+((s.talentIds||[]).includes(t.id)?5:0);
 }
 function scenarioMatchedTalents(s){return talents.filter(t=>scenarioTalentScore(t,s)>0).sort((a,b)=>scenarioTalentScore(b,s)-scenarioTalentScore(a,s))}
 function scenarioTalentCount(s){return scenarioMatchedTalents(s).length}
@@ -331,6 +333,7 @@ document.addEventListener('submit',async e=>{
 function render(){
  const view=state.route==='home'?home():state.route==='search'?search():state.route==='scenarios'?scenarioLab():state.route==='profile'?profile():state.route==='standards'?standards():admin();
  app.innerHTML=cleanPublicCopy(view);
+ document.querySelectorAll('.lab-method,.rule-table').forEach(section=>section.remove());
  document.querySelectorAll('.brand-logo').forEach(img=>img.remove());
  const footer=document.querySelector('.footer');
  if(footer){footer.outerHTML='<footer class="footer"><div><b>全国 AI 人才可信档案库</b><br><small>信息以原始来源为准。</small></div><small>档案信息仅供合作前参考 · 2026</small></footer>'}
